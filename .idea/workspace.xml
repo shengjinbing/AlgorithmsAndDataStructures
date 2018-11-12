@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92a197df-2787-4df5-9093-2b6b14c0dd8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/tree/RedBlackBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/tree/TreeMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/find/BST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/find/BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/find/FindMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/find/FindMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/find/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/tree/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/find/FindMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/find/FindMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,7 +54,7 @@
         <counts>
           <entry key="class" value="3" />
           <entry key="cpp" value="2" />
-          <entry key="java" value="174" />
+          <entry key="java" value="175" />
           <entry key="json" value="1" />
           <entry key="log" value="1" />
         </counts>
@@ -72,7 +63,7 @@
         <counts>
           <entry key="C++" value="2" />
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="174" />
+          <entry key="JAVA" value="175" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
@@ -152,6 +143,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/tree/RedBlackBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="99" column="7" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/libs/algs4.jar!/edu/princeton/cs/algs4/Bag.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
@@ -336,20 +341,6 @@
               <item name="ArithmeticSample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="suanfa" type="462c0819:PsiDirectoryNode" />
-              <item name="bagqueuestack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ArithmeticSample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArithmeticSample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="suanfa" type="462c0819:PsiDirectoryNode" />
-              <item name="find" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ArithmeticSample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArithmeticSample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="suanfa" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -368,7 +359,7 @@
     <property name="SearchEverywhereHistoryKey" value="bag&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.Bag&#10;collect&#9;PSI&#9;JAVA://java.util.Collection&#10;Cip&#9;PSI&#9;JAVA://javax.crypto.Cipher&#10;String&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java&#10;Hashma&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/HashMap.java&#10;RedBlackBST&#9;FILE&#9;jar://C:/Users/1/IdeaProjects/ArithmeticSample/libs/algs4.jar!/edu/princeton/cs/algs4/RedBlackBST.java&#10;Red&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.RedBlackBST&#10;Integer&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Integer.java&#10;BST&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.BST&#10;Transa&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.Transaction&#10;MinP&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.MinPQ&#10;MaxP&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.MaxPQ&#10;Hashmap&#9;PSI&#9;JAVA://java.util.HashMap&#10;LinkedBlockingQueue&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingQueue&#10;ThreadPoolExecutor&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;Linkh&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;arrayl&#9;PSI&#9;JAVA://java.util.ArrayList&#10;List&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java&#10;stack&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Stack.java&#10;stac&#9;PSI&#9;JAVA://java.util.Stack&#10;itera&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/java/util/Iterator.class&#10;Iter&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/java/lang/Iterable.class&#10;sta&#9;PSI&#9;JAVA://java.util.Stack&#10;vector&#9;PSI&#9;JAVA://java.util.Vector" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542007165770" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542009788552" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../designmode/23DesignMode" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -496,18 +487,17 @@
       <workItem from="1539170995861" duration="58394000" />
       <workItem from="1540205510671" duration="76263000" />
       <workItem from="1541408042964" duration="12692000" />
-      <workItem from="1541996383132" duration="1729000" />
+      <workItem from="1541996383132" duration="2003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225583000" />
+    <option name="totallyTimeSpent" value="225857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18498659" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18498659" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -523,7 +513,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -803,13 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/tree/RedBlackBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2375">
-          <caret line="99" column="7" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/libs/algs4.jar!/edu/princeton/cs/algs4/RedBlackBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9100">
@@ -929,6 +912,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/algs4.jar!/edu/princeton/cs/algs4/Bag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/tree/TreeMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -939,10 +929,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/algs4.jar!/edu/princeton/cs/algs4/Bag.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/tree/RedBlackBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+        <state relative-caret-position="20">
+          <caret line="99" column="7" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
