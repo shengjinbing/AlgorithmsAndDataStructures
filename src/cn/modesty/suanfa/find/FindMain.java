@@ -1,7 +1,6 @@
 package cn.modesty.suanfa.find;
 
-import java.util.ArrayList;
-import java.util.List;
+import cn.modesty.suanfa.tree.BST;
 
 public class FindMain {
     public static void main(String[] args) {
@@ -12,22 +11,6 @@ public class FindMain {
         System.out.println(BinarySearch.searchEnd(7, data, 0, data.length - 1));
         System.out.println(BinarySearch.searchFirstBig(2, data, 0, data.length - 1));
         System.out.println(BinarySearch.searchFirstLess(7, data, 0, data.length - 1));*/
-
-        BST<Integer, Integer> bst = new BST<>();
-        bst.put(2,2);
-        bst.put(5,5);
-        bst.put(1,1);
-        bst.put(7,7);
-        bst.put(3,3);
-        bst.put(6,6);
-       /* System.out.println(bst.size());
-        System.out.println(bst.get(6));
-        System.out.println(bst.min());
-        System.out.println(bst.max());
-        System.out.println(bst.floor(4));*/
-        bst.print();
-        bst.delete(5);
-        bst.print();
 
     }
 
