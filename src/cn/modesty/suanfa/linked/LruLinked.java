@@ -4,13 +4,13 @@ public class LruLinked<T> {
 
     //最大只能存放5个元素
     private int  maxSize = 5;
-    private int size;
+    private int  size;
     private Node head;
     private Node current;
 
     static class Node<T> {
         Node next;
-        T           data;
+        T    data;
     }
 
     public int size() {
@@ -24,18 +24,18 @@ public class LruLinked<T> {
     public void insert(T data) {
         Node node = new Node();
         node.data = data;
-        if (isContain(data)){
+        if (isContain(data)) {
             node.next = head;
             head = node;
-        }else {
-            if (isEmpty()){
+        } else {
+            if (isEmpty()) {
                 head = node;
-            }else if (size == 5){
+            } else if (size == 5) {
                 //需要删除元素
                 delete(4);
                 node.next = head;
                 head = node;
-            }else {
+            } else {
                 node.next = head;
                 head = node;
             }
@@ -44,11 +44,11 @@ public class LruLinked<T> {
 
     }
 
-    public boolean isContain(T data){
+    public boolean isContain(T data) {
         int j = 0;//记录当前节点的所言
         current = head;
-        while (current != null){
-            if (current.data == data){
+        while (current != null) {
+            if (current.data == data) {
                 //存在当前节点，删除当前节点，把节点重新插入头部
                 delete(j);
                 return true;
@@ -64,13 +64,13 @@ public class LruLinked<T> {
         if (index == 0) {
             //删除头结点
             head = head.next;
-        }else if (index == size -1){
+        } else if (index == size - 1) {
             //删除尾部节点
             indexElement(index - 1);
             current.next = null;
-        }else {
+        } else {
             indexElement(index - 1);
-            if (current.next.next != null){
+            if (current.next.next != null) {
                 current.next = current.next.next;
             }
 

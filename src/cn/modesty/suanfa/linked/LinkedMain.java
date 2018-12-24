@@ -24,7 +24,7 @@ public class LinkedMain {
         linked.printElement();*/
 
         //LRU算法的使用
-        /*LruLinked<Integer> lruLinked = new LruLinked();
+        LruLinked<Integer> lruLinked = new LruLinked();
         lruLinked.insert(0);
         lruLinked.insert(1);
         lruLinked.insert(2);
@@ -34,7 +34,7 @@ public class LinkedMain {
         lruLinked.insert(2);
         lruLinked.insert(5);
         //lruLinked.delete(4);
-        lruLinked.printElement();*/
+        lruLinked.printElement();
 
         //单链表的反转
         /*Linked<Integer> linked = new Linked<Integer>();
@@ -80,7 +80,7 @@ public class LinkedMain {
         }
         linked.printElement();*/
 
-       //两个有序链表合并
+     /*  //两个有序链表合并
         Linked<Integer> linkedone = new Linked<Integer>();
         linkedone.add(1);
         linkedone.add(3);
@@ -95,7 +95,7 @@ public class LinkedMain {
         linkedtwo.add(10);
 
         Linked.Node head = linkedone.mergeLinked(linkedone.getHead(), linkedtwo.getHead());
-        linkedone.printElement(head);
+        linkedone.printElement(head);*/
     }
 
 

@@ -68,18 +68,18 @@ public class BST<Key extends Comparable<Key>, Value> {
      * @param value
      */
     public Node put(Node x, Key key, Value value) {
-        if (x == null) return new Node(key, value, 1);
-        int cmp = x.key.compareTo(key);
-        if (cmp > 0) {
-            //放在树的左边
-            x.left = put(x.left, key, value);
-        } else if (cmp < 0) {
-            //放在树的右边
-            x.right = put(x.right, key, value);
-        } else {
-            //相等的话覆盖的
-            x.value = value;
-        }
+            if (x == null) return new Node(key, value, 1);
+            int cmp = x.key.compareTo(key);
+            if (cmp > 0) {
+                //放在树的左边
+                x.left = put(x.left, key, value);
+            } else if (cmp < 0) {
+                //放在树的右边
+                x.right = put(x.right, key, value);
+            } else {
+                //相等的话覆盖的
+                x.value = value;
+            }
         //左加右加根
         x.N = size(x.left) + size(x.right) + 1;
         return x;

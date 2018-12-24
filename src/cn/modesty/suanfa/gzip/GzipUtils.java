@@ -6,6 +6,12 @@ import java.io.IOException;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
 
+/**
+ * 1.压缩核心之 Deflate,并且在当时作为 LZW 的替代品有了非常广泛的使用。
+ * 2.Deflate 是一个同时使用 LZ77 与 Huffman Coding 的算法
+ * 3.LZ77 的核心思路是如果一个串中有两个重复的串，那么只需要知道第一个串的内容和后面串相对于第一个串起始位置的距离 + 串的长度。
+ * 4.Deflate 综合使用了 LZ77 和 Huffman Coding 来压缩文件，相对而言又提升了很多。
+ */
 public class GzipUtils {
     /**
      * @param input 需要压缩的字符串
