@@ -41,4 +41,41 @@ public class MergerSort {
             }
         }
     }
+
+    /**
+     * 合并数据第二种写法
+     * @param data
+     * @param start
+     * @param mid
+     * @param end
+     */
+    private static void mergeData(int[] data, int start, int mid, int end) {
+        int[] temp = new int[data.length];
+        for (int i = start; i <=end ; i++) {
+            temp[i] = data[i];
+        }
+
+        int j = mid+1;
+        int i = start;
+        while (start<= mid && j <= end){
+            if (temp[start] < temp[j]){
+                data[i++] = temp[start++];
+            }else {
+                data[i++] = temp[j++];
+            }
+        }
+        if (start <= mid){
+            //左边有剩余
+            for (int k = start; k <=mid ; k++) {
+                data[i++] = temp[k];
+            }
+        }
+
+        if (j <= end){
+            //右边有剩余
+            for (int k = j; k <=end ; k++) {
+                data[i++] = temp[k];
+            }
+        }
+    }
 }
