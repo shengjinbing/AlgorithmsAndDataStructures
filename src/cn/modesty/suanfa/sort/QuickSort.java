@@ -67,7 +67,7 @@ public class QuickSort {
                 if (j == lo)break;
             }
             if (i >= j)break;
-            //交换位子
+            //交换位子,上面必须使用++i和--j，否则这里交换位置会出错
             int temp = a[i];
             a[i] = a[j];
             a[j] = temp;

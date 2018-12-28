@@ -1,32 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="jar://$PROJECT_DIR$/libs/algs4.jar!/edu/princeton/cs/algs4/RedBlackBST.java" line="365" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="92a197df-2787-4df5-9093-2b6b14c0dd8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/graph/DepthFirstOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/graph/DepthFirstPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/graph/DirectedCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/graph/KosarajuSCC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/graph/mintree/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/graph/mintree/EdgeWeightedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/graph/mintree/MTS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/huffman/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/thread/ThreadMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/thread/ThreadRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/interview/InterViewMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/PracticeMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/graph/Digraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/graph/Digraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/graph/GraphMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/graph/GraphMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/gzip/GCMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/gzip/GzipUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/gzip/GzipUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/gzip/Main1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/gzip/TestClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/gzip/TestClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/linked/LinkedMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/linked/LinkedMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/linked/LruLinked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/linked/LruLinked.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/GCMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/GzipUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/GzipUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/Main1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/Main1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/TestClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/tree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/tree/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/SortMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/SortMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +45,7 @@
     <session id="1157731751">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.13" value="1" />
@@ -69,16 +56,16 @@
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="6" />
+          <entry key="class" value="7" />
           <entry key="cpp" value="2" />
-          <entry key="java" value="275" />
+          <entry key="java" value="280" />
           <entry key="json" value="1" />
           <entry key="kt" value="2" />
           <entry key="log" value="1" />
@@ -88,8 +75,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="C++" value="2" />
-          <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="275" />
+          <entry key="CLASS" value="7" />
+          <entry key="JAVA" value="280" />
           <entry key="JSON" value="1" />
           <entry key="Kotlin" value="2" />
           <entry key="Markdown" value="2" />
@@ -99,14 +86,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="java" value="24240" />
+          <entry key="java" value="25033" />
           <entry key="kt" value="32" />
           <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="24240" />
+          <entry key="JAVA" value="25033" />
           <entry key="Kotlin" value="32" />
           <entry key="PLAIN_TEXT" value="26" />
         </counts>
@@ -119,42 +106,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/huffman/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-              <folding>
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/gzip/GzipUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/sort/PracticeMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="300">
+              <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/zip/GZIPOutputStream.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/sort/SortMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="184" column="28" selection-start-line="184" selection-start-column="28" selection-end-line="184" selection-end-column="28" />
+            <state relative-caret-position="225">
+              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/zip/Deflater.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/sort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+            <state relative-caret-position="450">
+              <caret line="72" column="24" lean-forward="true" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -192,10 +166,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/bagqueuestack/StackAlg.java" />
-        <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/MergerSort.java" />
         <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/InsertSort.java" />
-        <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/LinearSort.java" />
         <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/bagqueuestack/IPQ.java" />
         <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/bagqueuestack/PQdata.java" />
@@ -203,7 +174,6 @@
         <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/bagqueuestack/main.java" />
         <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/HalfSort.java" />
-        <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/SortMain.java" />
         <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/find/TreeData.java" />
         <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/find/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/find/test.java" />
@@ -231,7 +201,6 @@
         <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/graph/DirectedCycle.java" />
         <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/graph/GraphMain.java" />
         <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/main1.java" />
-        <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/main.java" />
         <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/graph/KosarajuSCC.java" />
         <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/graph/mintree/Edge.java" />
         <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/graph/mintree/EdgeWeightedGraph.java" />
@@ -243,6 +212,11 @@
         <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/linked/LruLinked.java" />
         <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/huffman/Node.java" />
         <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/gzip/GzipUtils.java" />
+        <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/interview/InterViewMain.java" />
+        <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/main.java" />
+        <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/SortMain.java" />
+        <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/PracticeMain.java" />
       </list>
     </option>
   </component>
@@ -272,6 +246,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,14 +272,7 @@
               <item name="ArithmeticSample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="suanfa" type="462c0819:PsiDirectoryNode" />
-              <item name="gzip" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ArithmeticSample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArithmeticSample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="suanfa" type="462c0819:PsiDirectoryNode" />
-              <item name="huffman" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ArithmeticSample" type="b2602c69:ProjectViewProjectNode" />
@@ -312,16 +282,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Collection&#9;PSI&#9;JAVA://java.util.Collection&#10;MimeMe&#9;PSI&#9;JAVA://com.sun.xml.internal.org.jvnet.mimepull.MIMEMessage&#10;Depth&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.DepthFirstSearch&#10;SET&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.SET&#10;bag&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.Bag&#10;collect&#9;PSI&#9;JAVA://java.util.Collection&#10;Cip&#9;PSI&#9;JAVA://javax.crypto.Cipher&#10;String&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java&#10;Hashma&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/HashMap.java&#10;RedBlackBST&#9;FILE&#9;jar://C:/Users/1/IdeaProjects/ArithmeticSample/libs/algs4.jar!/edu/princeton/cs/algs4/RedBlackBST.java&#10;Red&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.RedBlackBST&#10;Integer&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Integer.java&#10;BST&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.BST&#10;Transa&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.Transaction&#10;MinP&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.MinPQ&#10;MaxP&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.MaxPQ&#10;Hashmap&#9;PSI&#9;JAVA://java.util.HashMap&#10;LinkedBlockingQueue&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingQueue&#10;ThreadPoolExecutor&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;Linkh&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;arrayl&#9;PSI&#9;JAVA://java.util.ArrayList&#10;List&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java&#10;stack&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Stack.java&#10;stac&#9;PSI&#9;JAVA://java.util.Stack&#10;itera&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/java/util/Iterator.class&#10;Iter&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/java/lang/Iterable.class&#10;sta&#9;PSI&#9;JAVA://java.util.Stack&#10;vector&#9;PSI&#9;JAVA://java.util.Vector" />
+    <property name="SearchEverywhereHistoryKey" value="BASE64Encoder&#9;PSI&#9;JAVA://sun.misc.BASE64Encoder&#10;Collection&#9;PSI&#9;JAVA://java.util.Collection&#10;MimeMe&#9;PSI&#9;JAVA://com.sun.xml.internal.org.jvnet.mimepull.MIMEMessage&#10;Depth&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.DepthFirstSearch&#10;SET&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.SET&#10;bag&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.Bag&#10;collect&#9;PSI&#9;JAVA://java.util.Collection&#10;Cip&#9;PSI&#9;JAVA://javax.crypto.Cipher&#10;String&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java&#10;Hashma&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/HashMap.java&#10;RedBlackBST&#9;FILE&#9;jar://C:/Users/1/IdeaProjects/ArithmeticSample/libs/algs4.jar!/edu/princeton/cs/algs4/RedBlackBST.java&#10;Red&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.RedBlackBST&#10;Integer&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Integer.java&#10;BST&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.BST&#10;Transa&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.Transaction&#10;MinP&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.MinPQ&#10;MaxP&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.MaxPQ&#10;Hashmap&#9;PSI&#9;JAVA://java.util.HashMap&#10;LinkedBlockingQueue&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingQueue&#10;ThreadPoolExecutor&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;Linkh&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;arrayl&#9;PSI&#9;JAVA://java.util.ArrayList&#10;List&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java&#10;stack&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Stack.java&#10;stac&#9;PSI&#9;JAVA://java.util.Stack&#10;itera&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/java/util/Iterator.class&#10;Iter&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/java/lang/Iterable.class&#10;sta&#9;PSI&#9;JAVA://java.util.Stack&#10;vector&#9;PSI&#9;JAVA://java.util.Vector" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545650106653" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545970968755" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../designmode/23DesignMode" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -351,20 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedMain">
-    <configuration name="GraphMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.graph.GraphMain" />
-      <module name="ArithmeticSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PracticeMain">
     <configuration name="LinkedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.linked.LinkedMain" />
       <module name="ArithmeticSample" />
@@ -378,12 +332,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.thread.ThreadMain" />
+    <configuration name="PracticeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.sort.PracticeMain" />
       <module name="ArithmeticSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.thread.*" />
+          <option name="PATTERN" value="cn.modesty.suanfa.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -391,12 +345,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UFMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.unionfind.UFMain" />
+    <configuration name="SortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.sort.SortMain" />
       <module name="ArithmeticSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.unionfind.*" />
+          <option name="PATTERN" value="cn.modesty.suanfa.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.thread.ThreadMain" />
+      <module name="ArithmeticSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.modesty.suanfa.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -434,18 +401,18 @@
     <list>
       <item itemvalue="Application.main1" />
       <item itemvalue="Application.main" />
-      <item itemvalue="Application.GraphMain" />
-      <item itemvalue="Application.UFMain" />
       <item itemvalue="Application.ThreadMain" />
       <item itemvalue="Application.LinkedMain" />
+      <item itemvalue="Application.PracticeMain" />
+      <item itemvalue="Application.SortMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PracticeMain" />
+        <item itemvalue="Application.SortMain" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.LinkedMain" />
         <item itemvalue="Application.ThreadMain" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.GraphMain" />
-        <item itemvalue="Application.UFMain" />
       </list>
     </recent_temporary>
   </component>
@@ -476,7 +443,8 @@
       <workItem from="1544615960932" duration="598000" />
       <workItem from="1544756707019" duration="2262000" />
       <workItem from="1545134693287" duration="3150000" />
-      <workItem from="1545364694913" duration="5372000" />
+      <workItem from="1545364694913" duration="9171000" />
+      <workItem from="1545909166526" duration="8023000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1542009842960</created>
@@ -496,10 +464,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="314276000" />
+    <option name="totallyTimeSpent" value="326098000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="1" />
@@ -507,14 +485,14 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.1930295" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.20107238" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.33427763" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.398017" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
@@ -581,34 +559,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/graph/DepthFirstSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/graph/BreadthFirstPaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/graph/DepthFirstPaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/unionfind/UF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/graph/TwoColor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -627,11 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -639,13 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/sort/SortMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2622">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -682,13 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="316" column="23" selection-start-line="316" selection-start-column="23" selection-end-line="316" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -824,10 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,51 +783,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1350">
           <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/gzip/TestClass.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/gzip/TestClass.class" />
     <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/gzip/ClassLoaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-          <folding>
-            <element signature="e#200#927#0" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/gzip/GCMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/gzip/Main1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-397">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/gzip/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/gzip/GCMain.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/gzip/Main1.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/gzip/TestClass.java" />
     <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/gzip/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -912,17 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/huffman/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -942,8 +827,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/gzip/GzipUtils.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2397">
+          <caret line="24" column="67" lean-forward="true" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/huffman/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/misc/BASE64Encoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/interview/InterViewMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="72" column="24" lean-forward="true" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/sort/SortMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/sort/PracticeMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
         </state>
       </provider>
     </entry>

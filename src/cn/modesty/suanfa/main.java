@@ -3,10 +3,7 @@ package cn.modesty.suanfa;
 import cn.modesty.suanfa.gzip.GzipUtils;
 
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class main {
     public static void main(String[] args) {
@@ -26,6 +23,37 @@ public class main {
         } catch (Exception e) {
             e.printStackTrace();
         }*/
+        ArrayList<Integer> listdata = new ArrayList();
+        listdata.sort(new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return 0;
+            }
+        });
+        StringBuilder sb = new StringBuilder();
+        String str = "Das";
+        char[] chars = str.toCharArray();
+        int i = (int)chars[1];
+        System.out.println(i);
+    }
+    public int FirstNotRepeatingChar(String str) {
+        Map<Integer,Integer> map = new HashMap();
+        char[] chars = str.toCharArray();
+        for(int i= 0;i < chars.length;i++){
+            int j = 0;
+            if(map.containsKey((int)chars[i])){
+                j = map.get((int)chars[i]);
+            }
+            map.put((int)chars[i],++j);
 
+        }
+        for(int i= 0;i < chars.length;i++){
+            int j = map.get((int)chars[i]);;
+            if(j == 1){
+                return i;
+            }
+
+        }
+        return 0;
     }
 }
