@@ -35,6 +35,9 @@ public class main {
         char[] chars = str.toCharArray();
         int i = (int)chars[1];
         System.out.println(i);
+
+        Set<String> set = new HashSet<>();
+        set.contains(1);
     }
     public int FirstNotRepeatingChar(String str) {
         Map<Integer,Integer> map = new HashMap();

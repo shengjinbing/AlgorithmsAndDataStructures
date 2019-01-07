@@ -25,7 +25,7 @@ public class SortMain {
         merger(data,0,data.length-1);*/
         //QuickSort.quickSortThree(data,0,data.length-1);
         //QuickSort.quickSort(data,0,data.length-1);
-        //HeapSort.sort(data,data.length-1);
+        HeapSort.sort(data,data.length-1);
         printf(data);
     }
     public static void merger(int[] a, int low, int hi) {
