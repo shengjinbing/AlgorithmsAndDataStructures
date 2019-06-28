@@ -27,6 +27,7 @@ public class SortMain {
         //QuickSort.quickSort(data,0,data.length-1);
         HeapSort.sort(data,data.length-1);
         printf(data);
+        System.out.println(data.length);
     }
     public static void merger(int[] a, int low, int hi) {
         if (low >= hi) {

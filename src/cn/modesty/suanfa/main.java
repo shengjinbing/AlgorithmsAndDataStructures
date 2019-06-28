@@ -23,21 +23,16 @@ public class main {
         } catch (Exception e) {
             e.printStackTrace();
         }*/
-        ArrayList<Integer> listdata = new ArrayList();
-        listdata.sort(new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                return 0;
-            }
-        });
-        StringBuilder sb = new StringBuilder();
-        String str = "Das";
-        char[] chars = str.toCharArray();
-        int i = (int)chars[1];
-        System.out.println(i);
+       try {
+           String a = "as";
 
-        Set<String> set = new HashSet<>();
-        set.contains(1);
+           int b = Integer.parseInt(a);
+           System.out.println("无异常");
+       }catch (Exception e){
+           System.out.println("异常");
+
+       }
+        System.out.println("异常后");
     }
     public int FirstNotRepeatingChar(String str) {
         Map<Integer,Integer> map = new HashMap();
