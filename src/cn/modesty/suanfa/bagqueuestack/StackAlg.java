@@ -1,7 +1,6 @@
 package cn.modesty.suanfa.bagqueuestack;
 
 import edu.princeton.cs.algs4.Stack;
-import jdk.nashorn.internal.ir.IfNode;
 
 public class StackAlg {
 

@@ -1,8 +1,5 @@
 package cn.modesty.suanfa.linked;
 
-import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
-
-import java.util.List;
 
 /**
  * 单链表

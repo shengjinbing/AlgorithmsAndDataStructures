@@ -1,7 +1,5 @@
 package cn.modesty.suanfa.bagqueuestack;
 
-import jdk.nashorn.internal.ir.IfNode;
-
 /**
  * 有限
  *

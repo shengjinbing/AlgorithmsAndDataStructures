@@ -1,6 +1,5 @@
 package cn.modesty.suanfa.thread;
 
-import javax.rmi.CORBA.Tie;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;

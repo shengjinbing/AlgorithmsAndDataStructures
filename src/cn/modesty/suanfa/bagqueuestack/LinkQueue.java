@@ -1,6 +1,5 @@
 package cn.modesty.suanfa.bagqueuestack;
 
-import jdk.nashorn.internal.ir.IfNode;
 
 public class LinkQueue<T> {
     Node head;

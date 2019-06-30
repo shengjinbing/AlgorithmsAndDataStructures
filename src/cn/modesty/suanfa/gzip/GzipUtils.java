@@ -56,7 +56,7 @@ public class GzipUtils {
      * 使用gzip进行压缩
      */
 
-    public static String gzip(String primStr) {
+  /*  public static String gzip(String primStr) {
         if (primStr == null || primStr.length() == 0) {
             return primStr;
         }
@@ -81,7 +81,7 @@ public class GzipUtils {
 
 
         return new sun.misc.BASE64Encoder().encode(out.toByteArray());
-    }
+    }*/
 
     /**
      *
@@ -89,7 +89,7 @@ public class GzipUtils {
      * @param compressedStr
      * @return
      */
-    public static String gunzip(String compressedStr){
+   /* public static String gunzip(String compressedStr){
         if(compressedStr==null){
             return null;
         }
@@ -100,7 +100,7 @@ public class GzipUtils {
         byte[] compressed=null;
         String decompressed = null;
         try {
-            compressed = new sun.misc.BASE64Decoder().decodeBuffer(compressedStr);
+            compressed = new BASE64Decoder().decodeBuffer(compressedStr);
             in=new ByteArrayInputStream(compressed);
             ginzip=new GZIPInputStream(in);
 
@@ -134,7 +134,7 @@ public class GzipUtils {
         }
 
         return decompressed;
-    }
+    }*/
 
 
 }

@@ -1,6 +1,5 @@
 package cn.modesty.suanfa.tree;
 
-import com.sun.org.apache.regexp.internal.RE;
 
 import java.util.logging.Level;
 
