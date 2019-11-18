@@ -2,6 +2,9 @@ package cn.modesty.suanfa.graph;
 
 import edu.princeton.cs.algs4.Bag;
 
+/**
+ * 图的结构
+ */
 public class Graph {
     private final int V;//顶点数目
     private int E;//边的数目

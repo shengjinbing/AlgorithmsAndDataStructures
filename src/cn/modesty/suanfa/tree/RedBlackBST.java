@@ -1,8 +1,18 @@
 package cn.modesty.suanfa.tree;
 
-
-import java.util.logging.Level;
-
+/**
+ * 1.根节点是黑色的
+ * 2.每个叶子节点都是黑色的空节点（NIL），也就是说叶子节点不存储数据
+ * 3.任何相邻得节点不能同时为红色，也就是说红色节点是被黑色节点隔开得
+ * 4.每个节点，该节点到达叶子节点的所有路径中黑色节点相同
+ *
+ * 在插入和删除节点的过程中会破坏2，3条，所有需要平衡调整，也就是：
+ *   左旋：围绕某个节点的左转
+ *   右旋：围绕某个节点的右转
+ *
+ * 红黑树规定，插入得节点必须是红色的
+ *
+ */
 public class RedBlackBST<Key extends Comparable<Key>,Value>{
     private static final boolean RED = true;
     private static final boolean BLACK = false;

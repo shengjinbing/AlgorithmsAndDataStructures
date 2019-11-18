@@ -6,8 +6,6 @@ public class DirectedCycle {
     private boolean[] marked;
     private int[] edgeTo;
 
-
-
     private Stack<Integer> cycle;//有向环中的所以定点
     private boolean[]      onStack;//递归调用的栈上的所以顶点
 

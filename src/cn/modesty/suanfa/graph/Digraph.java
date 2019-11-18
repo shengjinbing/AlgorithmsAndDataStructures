@@ -3,9 +3,9 @@ package cn.modesty.suanfa.graph;
 import edu.princeton.cs.algs4.Bag;
 
 public class Digraph {
-    private final int            V;//顶点数目
-    private       int            E;//边的数目
-    private       Bag<Integer>[] adj;//邻接表
+    private final int V;//顶点数目
+    private int E;//边的数目
+    private Bag<Integer>[] adj;//邻接表
 
     public Digraph(int v) {
         V = v;
@@ -52,8 +52,8 @@ public class Digraph {
     public Digraph reverse() {
         Digraph R = new Digraph(V);
         for (int i = 0; i < V; i++) {
-            for (Integer w : adj(i)){
-                R.addEdge(w,i);
+            for (Integer w : adj(i)) {
+                R.addEdge(w, i);
             }
         }
         return R;

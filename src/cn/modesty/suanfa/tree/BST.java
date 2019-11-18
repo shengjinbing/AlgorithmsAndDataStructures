@@ -93,6 +93,65 @@ public class BST<Key extends Comparable<Key>, Value> {
     }
 
     /**
+     * 删除一个元素
+     * 1. 若删除的节点没有孩子的时候，直接删除此节点，然后将父节点NULL；
+     * 2.若删除的节点有一个孩子的时候，直接将父节点连接到其孩子节点，然后删除此节点。
+     * 3.若有两个节点的时候，这时候就要找个节点代替它了，因为二叉搜索树具有左子树比此节点的值都小，
+     * 右子树比此节点的值大，所以
+     * （1）可以找左子树中节点最大的元素，也就是左子树中最右端的元素，
+     * （2）也可以找右子树中节点最小的元素，也就是右子树中最左端的节点。让此节点的值等于子树中选出的值，
+     *     然后删除子树中的节点，因为被删除的节点不是在最右端就是在最左端，所以可知此节点只有一个孩子。。。。
+     *     然后转到第二种情况。。
+     *
+     * @param key
+     */
+    public void delete(Key key) {
+        if (root == null) return;
+        root = delete(root, key);
+
+    }
+
+    public Node delete(Node x, Key key) {
+        if (x == null) return null;
+        int i = key.compareTo(x.key);
+        if (i > 0) {
+            x.right = delete(x.right, key);
+        } else if (i < 0) {
+            x.left = delete(x.left, key);
+        } else {
+            //找到结点，开始删除
+            if (x.right == null) return x.left;
+            if (x.left == null) return x.right;
+            Node t = x;
+            //找到最小的结点
+            x = min(x.right);
+            //返回删除最小结点之后的根节点
+            x.right = deleteMin(t.right);
+            x.left = t.left;
+            x.N = size(x.left) + size(x.right) + 1;
+        }
+
+        return x;
+    }
+
+    public void deleteMin() {
+        root = deleteMin(root);
+    }
+
+    /**
+     * 删除最小元素
+     *
+     * @param x
+     * @return
+     */
+    public Node deleteMin(Node x) {
+        if (x.left == null) return x.right;
+        x.left = deleteMin(x.left);
+        x.N = size(x.left) + size(x.right) + 1;
+        return x;
+    }
+
+    /**
      * 最小键
      *
      * @return
@@ -315,6 +374,66 @@ public class BST<Key extends Comparable<Key>, Value> {
         return lists;
     }
 
+    /**
+     * 二叉树的最大深度(104)
+     * 难度（简单）
+     *
+     * 给定一个二叉树，找出其最大深度。
+     *
+     * 二叉树的深度为根节点到最远叶子节点的最长路径上的节点数。
+     *
+     * 说明: 叶子节点是指没有子节点的节点。
+     *
+     * 示例：
+     * 给定二叉树 [3,9,20,null,null,15,7]，
+     *
+     *     3
+     *    / \
+     *   9  20
+     *     /  \
+     *    15   7
+     * 返回它的最大深度 3 。
+     *
+     * 来源：力扣（LeetCode）
+     * 链接：https://leetcode-cn.com/problems/maximum-depth-of-binary-tree
+     * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+     */
+    public int maxDepth(){
+        return maxDepth(root);
+    }
+
+    public int maxDepth(Node x){
+        //利用层级遍历来求最大深度，时间和空间复杂度过高
+        /*if (x == null) return 0;
+        int maxDepth = 0;
+        Queue<Node> queue = new LinkedList<>();
+        //将根节点添加进来
+        queue.add(root);
+        while (queue.size() > 0){
+            //队列得大小
+            int size = queue.size();
+            while (size > 0){
+                Node poll = queue.poll();
+                if (poll.left != null){
+                    queue.add(poll.left);
+                }
+
+                if (poll.right != null){
+                    queue.add(poll.right);
+                }
+                //每次循环需要
+                size--;
+            }
+            maxDepth++;
+        }
+        return maxDepth;*/
+
+        //使用递归得方式
+        if (x == null) return 0;
+        int depth = 1;
+        depth += Math.max(maxDepth(x.right),maxDepth(x.left));
+        return depth;
+    }
 
     /**
      * 翻转二叉树（226，简单）
@@ -351,57 +470,6 @@ public class BST<Key extends Comparable<Key>, Value> {
         invertTree(x.right);
     }
 
-
-    /**
-     * 删除一个元素
-     *
-     * @param key
-     */
-    public void delete(Key key) {
-        if (root == null) return;
-        root = delete(root, key);
-
-    }
-
-    public Node delete(Node x, Key key) {
-        if (x == null) return null;
-        int i = key.compareTo(x.key);
-        if (i > 0) {
-            x.right = delete(x.right, key);
-        } else if (i < 0) {
-            x.left = delete(x.left, key);
-        } else {
-            //找到结点，开始删除
-            if (x.right == null) return x.left;
-            if (x.left == null) return x.right;
-            Node t = x;
-            //找到最小的结点
-            x = min(x.right);
-            //返回删除最小结点之后的根节点
-            x.right = deleteMin(t.right);
-            x.left = t.left;
-            x.N = size(x.left) + size(x.right) + 1;
-        }
-
-        return x;
-    }
-
-    public void deleteMin() {
-        root = deleteMin(root);
-    }
-
-    /**
-     * 删除最小元素
-     *
-     * @param x
-     * @return
-     */
-    public Node deleteMin(Node x) {
-        if (x.left == null) return x.right;
-        x.left = deleteMin(x.left);
-        x.N = size(x.left) + size(x.right) + 1;
-        return x;
-    }
 
     public Iterable<Key> keys() {
         return keys(min(), max());
