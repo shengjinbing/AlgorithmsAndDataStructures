@@ -1,25 +1,20 @@
 package cn.modesty.suanfa;
 
-import com.sun.org.apache.bcel.internal.Constants;
-import com.sun.org.apache.bcel.internal.classfile.ClassParser;
-import com.sun.org.apache.bcel.internal.classfile.JavaClass;
-import com.sun.org.apache.bcel.internal.classfile.Method;
-import com.sun.org.apache.bcel.internal.generic.*;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 
 
 public class BCELTiming {
-
-    private static void addWrapper(ClassGen cgen, Method method) {
-        /*第一部分只是初始化要使用的基本 BCEL 组件，它包括用要计时方法的信息初始化一个新的
+/*第一部分只是初始化要使用的基本 BCEL 组件，它包括用要计时方法的信息初始化一个新的
         org.apache.bcel.generic.MethodGen 实例。我为这个 MethodGen 设置一个空的
         指令清单，在后面我将用实际的计时代码填充它。在第 2 部分，我用原来的方法创建第二个
         org.apache.bcel.generic.MethodGen 实例，然后从类中删除原来的方法。在第二个
         MethodGen 实例中，我只是让名字加上“$impl”后缀，然后调用 getMethod () 以将可修改的
         方法信息转换为固定形式的 org.apache.bcel.classfile.Method 实例。然后调用
         addMethod() 以便在类中添加改名后的方法。*/
+   /* private static void addWrapper(ClassGen cgen, Method method) {
+
         InstructionFactory ifact = new InstructionFactory(cgen);
         InstructionList ilist = new InstructionList();
         ConstantPoolGen pgen = cgen.getConstantPool();
@@ -116,10 +111,10 @@ public class BCELTiming {
         wrapgen.setMaxLocals();
         cgen.addMethod(wrapgen.getMethod());
         ilist.dispose();
-    }
+    }*/
 
     public static void main(String[] argv) {
-        if (argv.length == 2 && argv[0].endsWith(".class")) {
+        /*if (argv.length == 2 && argv[0].endsWith(".class")) {
             try {
 
                 JavaClass jclas = new ClassParser(argv[0]).parse();
@@ -149,9 +144,10 @@ public class BCELTiming {
             System.out.println
                     ("Usage: BCELTiming class-file method-name");
         }
+    }}*/
     }
-
-
-
-
 }
+
+
+
+

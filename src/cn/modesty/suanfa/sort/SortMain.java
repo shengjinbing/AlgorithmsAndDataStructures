@@ -16,7 +16,8 @@ public class SortMain {
 
     public static void main(String[] args) {
         //int[] data = {0,9,6,8,10,2,11,1,5,7,4,2};
-        int[] data = new int[]{1,0,4,3,2,9,6,8,7,5};
+        int[] data = {1,2,3,4,5,6,7};
+
         //冒泡
         //BubbleSort.sort(data);
         //SelectSort.select(data);
@@ -24,10 +25,10 @@ public class SortMain {
         /*temp = new int[data.length];
         merger(data,0,data.length-1);*/
         //QuickSort.quickSortThree(data,0,data.length-1);
-        //QuickSort.quickSort(data,0,data.length-1);
-        HeapSort.sort(data,data.length-1);
+        QuickSort.quickSort(data,0,data.length-1);
+       // HeapSort.sort(data,data.length-1);
         printf(data);
-        System.out.println(data.length);
+        //System.out.println(data.length);
     }
     public static void merger(int[] a, int low, int hi) {
         if (low >= hi) {
