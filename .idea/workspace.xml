@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92a197df-2787-4df5-9093-2b6b14c0dd8e" name="Default Changelist" comment="添加无向图">
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/thread/thread/ThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/tree/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main6$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main6$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/tree/TreetLeetcodeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/tree/TreetLeetcodeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/tree/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/tree/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,33 +101,7 @@
       <recent name="C:\Users\1\IdeaProjects\ArithmeticSample\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadTest">
-    <configuration name="IsSameTreeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.tree.IsSameTreeMain" />
-      <module name="ArithmeticSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsSymmetric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.tree.IsSymmetric" />
-      <module name="ArithmeticSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TreetLeetcodeMain">
     <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.thread.thread.ThreadTest" />
       <module name="ArithmeticSample" />
@@ -149,6 +121,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.modesty.suanfa.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreetLeetcodeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.tree.TreetLeetcodeMain" />
+      <module name="ArithmeticSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.modesty.suanfa.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.tree.main" />
+      <module name="ArithmeticSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.modesty.suanfa.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,19 +183,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.main1" />
-      <item itemvalue="Application.IsSameTreeMain" />
-      <item itemvalue="Application.IsSymmetric" />
       <item itemvalue="Application.main6" />
       <item itemvalue="Application.ThredStateMain" />
       <item itemvalue="Application.ThreadTest" />
+      <item itemvalue="Application.main" />
+      <item itemvalue="Application.TreetLeetcodeMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreetLeetcodeMain" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.ThreadTest" />
         <item itemvalue="Application.ThredStateMain" />
         <item itemvalue="Application.main6" />
-        <item itemvalue="Application.IsSymmetric" />
-        <item itemvalue="Application.IsSameTreeMain" />
       </list>
     </recent_temporary>
   </component>
@@ -329,54 +327,65 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加无向图" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="437" height="466" key="DebuggerActiveHint" timestamp="1596530215435">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="429" height="466" key="DebuggerActiveHint/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596441396220" />
+    <state width="437" height="466" key="DebuggerActiveHint/0.23.1440.797/-2560.-244.2560.1417@0.23.1440.797" timestamp="1596530215435" />
     <state x="144" y="79" key="DiffContextDialog" timestamp="1590386753650">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="144" y="79" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1590386753650" />
-    <state width="1398" height="242" key="GridCell.Tab.0.bottom" timestamp="1590472682342">
+    <state width="1398" height="270" key="GridCell.Tab.0.bottom" timestamp="1596530224411">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="270" key="GridCell.Tab.0.bottom/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596530224411" />
     <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590472682341" />
-    <state width="1398" height="242" key="GridCell.Tab.0.center" timestamp="1590472682339">
+    <state width="1398" height="270" key="GridCell.Tab.0.center" timestamp="1596530224409">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="270" key="GridCell.Tab.0.center/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596530224409" />
     <state width="1398" height="242" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590472682339" />
-    <state width="1398" height="242" key="GridCell.Tab.0.left" timestamp="1590472682336">
+    <state width="1398" height="270" key="GridCell.Tab.0.left" timestamp="1596530224408">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="270" key="GridCell.Tab.0.left/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596530224408" />
     <state width="1398" height="242" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590472682336" />
-    <state width="1398" height="242" key="GridCell.Tab.0.right" timestamp="1590472682340">
+    <state width="1398" height="270" key="GridCell.Tab.0.right" timestamp="1596530224410">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="270" key="GridCell.Tab.0.right/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596530224410" />
     <state width="1398" height="242" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590472682340" />
-    <state width="1398" height="270" key="GridCell.Tab.1.bottom" timestamp="1587978564927">
+    <state width="1398" height="270" key="GridCell.Tab.1.bottom" timestamp="1596530224415">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="270" key="GridCell.Tab.1.bottom/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596530224415" />
     <state width="1398" height="270" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587978564927" />
-    <state width="1398" height="270" key="GridCell.Tab.1.center" timestamp="1587978564926">
+    <state width="1398" height="270" key="GridCell.Tab.1.center" timestamp="1596530224413">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="270" key="GridCell.Tab.1.center/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596530224413" />
     <state width="1398" height="270" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1587978564926" />
-    <state width="1398" height="270" key="GridCell.Tab.1.left" timestamp="1587978564925">
+    <state width="1398" height="270" key="GridCell.Tab.1.left" timestamp="1596530224412">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="270" key="GridCell.Tab.1.left/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596530224412" />
     <state width="1398" height="270" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1587978564925" />
-    <state width="1398" height="270" key="GridCell.Tab.1.right" timestamp="1587978564926">
+    <state width="1398" height="270" key="GridCell.Tab.1.right" timestamp="1596530224414">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="270" key="GridCell.Tab.1.right/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596530224414" />
     <state width="1398" height="270" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1587978564926" />
-    <state x="436" y="167" key="RollbackChangesDialog" timestamp="1590386755194">
+    <state x="436" y="167" key="RollbackChangesDialog" timestamp="1596098751536">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="436" y="167" key="RollbackChangesDialog/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596098751536" />
     <state x="436" y="167" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1590386755194" />
-    <state x="374" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1590982316137">
+    <state x="374" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1596098742091">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="374" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596098742091" />
     <state x="374" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1590982316137" />
-    <state x="385" y="196" key="search.everywhere.popup" timestamp="1586151976482">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1586151976482" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
