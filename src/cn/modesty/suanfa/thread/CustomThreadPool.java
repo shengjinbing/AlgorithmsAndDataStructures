@@ -48,7 +48,7 @@ public class CustomThreadPool {
         mThreadPoolExecutor = new ThreadPoolExecutor(corePoolSize,
                 maximumPoolSize,//核心池的大小
                 keepAliveTime,//线程池最大线程数
-                unit,//保持时间
+                unit,//保活时间
                 workQueue,//任务队列
                 threadFactory,//线程工厂
                 handler);// 捕获异常
