@@ -125,12 +125,7 @@ public class TreetLeetcodeMain {
     }
 
     private static TreeNode buildTree(int[] preorder, int[] inorder, int prei, int prej, int ini, int inj) {
-        if (prei > prej || ini > inj || prei < 0 || prej >= preorder.length || ini < 0 || inj >= inorder.length)
-            return null;
-        if (prej - prei < 0)
-            return null;
-        if (prei == prej)
-            return new TreeNode(preorder[prei]);
+        if (ini > inj) return null;
         //头结点
         TreeNode root = new TreeNode(preorder[prei]);
         int inFlag = 0;

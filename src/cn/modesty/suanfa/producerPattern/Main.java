@@ -15,7 +15,7 @@ public class Main {
     public static Condition full = lock.newCondition();
     public static void main(String[] args) throws InterruptedException {
         /***********************Lock实现************************************/
-        List<PCData2> queue = new ArrayList<PCData2>();
+       /* List<PCData2> queue = new ArrayList<PCData2>();
         int length = 10;
         Producter2 p1 = new Producter2(queue, length);
         Producter2 p2 = new Producter2(queue, length);
@@ -30,9 +30,9 @@ public class Main {
         service.execute(c1);
         service.execute(c2);
         service.execute(c3);
-
+*/
         /***********************阻塞队列实现************************************/
-      /*  BlockingQueue<PCData> queue = new LinkedBlockingDeque<>(10);
+        BlockingQueue<PCData> queue = new LinkedBlockingDeque<>(10);
         Producer p1 = new Producer(queue);
         //Producer p2 = new Producer(queue);
         //Producer p3 = new Producer(queue);
@@ -54,7 +54,7 @@ public class Main {
 
         Thread.sleep(3000);
 
-        service.shutdown();*/
+        service.shutdown();
 
         /***********************synchronized实现************************************/
        /* List<PCData1> queue = new ArrayList();
