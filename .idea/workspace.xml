@@ -2,10 +2,130 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92a197df-2787-4df5-9093-2b6b14c0dd8e" name="Default Changelist" comment="添加无向图">
+      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/thread/lock/LockMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/tree/TreetLeetcodeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/tree/TreetLeetcodeMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/tree/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/tree/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/backtracking/EightQueens.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/backtracking/EightQueens.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/backtracking/Knapsack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/backtracking/Knapsack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/backtracking/Pattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/backtracking/Pattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/backtracking/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/backtracking/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/ArrayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/IPQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/IPQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/LinkQueue$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/LinkQueue$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/LinkQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/LinkQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/LinkStack$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/LinkStack$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/LinkStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/LinkStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/MaxPQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/MaxPQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/PQdata.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/PQdata.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/ResizeingArrayStack$Itr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/ResizeingArrayStack$Itr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/ResizeingArrayStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/ResizeingArrayStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/StackAlg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/StackAlg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/dynamicprogramming/Path.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/dynamicprogramming/Path.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/dynamicprogramming/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/dynamicprogramming/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/find/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/find/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/find/FindMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/find/FindMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/find/TreeData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/find/TreeData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/BreadthFirstPaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/BreadthFirstPaths.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/CC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/CC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/Cycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/Cycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/DepthFirstOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/DepthFirstOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/DepthFirstPaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/DepthFirstPaths.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/DepthFirstSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/DepthFirstSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/Digraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/Digraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/DirectedCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/DirectedCycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/GraphMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/GraphMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/KosarajuSCC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/KosarajuSCC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/Paths.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/Paths.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/SymbolGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/SymbolGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/TwoColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/TwoColor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/mintree/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/mintree/Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/mintree/EdgeWeightedGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/mintree/EdgeWeightedGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/mintree/MTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/mintree/MTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/ClassLoaderTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/ClassLoaderTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/ClassLoaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/ClassLoaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/GzipUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/GzipUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/heap/Heap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/heap/Heap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/heap/MainHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/heap/MainHeap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/huffman/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/huffman/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/Linked$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/Linked$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/Linked.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/Linked.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/LinkedMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/LinkedMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/List.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/LruLinked$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/LruLinked$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/LruLinked.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/LruLinked.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/nine/TopologyMain$Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/nine/TopologyMain$Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/nine/TopologyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/nine/TopologyMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/ClimbStairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/ClimbStairs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/EvalRPN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/EvalRPN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/FirstMissingPositive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/FirstMissingPositive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/HasCycle$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/HasCycle$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/HasCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/HasCycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/HasPathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/HasPathSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/IsValid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/IsValid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/IsValidBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/IsValidBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/LongestCommonPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/LongestCommonPrefix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/LongestValidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/LongestValidParentheses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MaxSlidingWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MaxSlidingWindow$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MaxSlidingWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MaxSlidingWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MergeKLists$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MergeKLists$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MergeKLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MergeKLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/Mode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/Mode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MyCircularDeque$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MyCircularDeque$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MyCircularDeque.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MyCircularDeque.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/RomanToInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/RomanToInt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/Sqrt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/Sqrt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/StrStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/StrStr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/ThreesNumsSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/ThreesNumsSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Consumer1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Consumer1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Consumer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Consumer2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/PCData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/PCData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/PCData1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/PCData1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/PCData2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/PCData2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Producer1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Producer1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Producter2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Producter2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/recursion/EuclideanAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/recursion/EuclideanAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/recursion/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/recursion/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/reflex/RefInvoke.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/reflex/RefInvoke.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/HeapSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/InsertSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/LinearSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/LinearSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/MergerSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/MergerSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/PracticeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/PracticeMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/SelectSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/SelectSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/str/StringMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/str/StringMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/ThreadRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/ThreadRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/ThredStateMain$Thread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/ThredStateMain$Thread1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/ThredStateMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/ThredStateMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/thread/Thread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/thread/Thread1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/thread/Thread2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/thread/Thread2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/thread/Thread3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/thread/Thread3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/thread/ThreadManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/thread/ThreadManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/thread/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/thread/ThreadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/BST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/BST$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/BST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/IsSameTreeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/IsSameTreeMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/IsSymmetric.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/IsSymmetric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/RedBlackBST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/RedBlackBST$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/RedBlackBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/RedBlackBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/TreeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/TreeMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/TreetLeetcodeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/TreetLeetcodeMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/unionfind/UF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/unionfind/UF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/unionfind/UFMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/unionfind/UFMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/tree/RedBlackBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/tree/RedBlackBST.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +156,100 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/offer/main14.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/collection/SetMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/collection/MapMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-198">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/tree/RedBlackBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/thread/thread/ThreadTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1156">
+              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/thread/CustomThreadPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1332">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/thread/ThreadMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-189">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/thread/ThreadRunnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/thread/ThredStateMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/thread/lock/LockMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -63,11 +277,85 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/tree/RedBlackBST.java" />
+        <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/thread/lock/LockMain.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="809" />
   </component>
   <component name="ProjectId" id="1UHWnxsWDx62vPnNc6bGlEu3CpJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AlgorithmsAndDataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmsAndDataStructures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmsAndDataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmsAndDataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmsAndDataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmsAndDataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="suanfa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmsAndDataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmsAndDataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="suanfa" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmsAndDataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmsAndDataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="suanfa" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmsAndDataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmsAndDataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="suanfa" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmsAndDataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmsAndDataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="suanfa" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -88,7 +376,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -101,7 +389,19 @@
       <recent name="C:\Users\1\IdeaProjects\ArithmeticSample\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreetLeetcodeMain">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.main14">
     <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.thread.thread.ThreadTest" />
       <module name="ArithmeticSample" />
@@ -168,8 +468,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.offer.main6" />
+    <configuration name="main14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.offer.main14" />
       <module name="ArithmeticSample" />
       <extension name="coverage">
         <pattern>
@@ -183,19 +483,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.main1" />
-      <item itemvalue="Application.main6" />
       <item itemvalue="Application.ThredStateMain" />
       <item itemvalue="Application.ThreadTest" />
       <item itemvalue="Application.main" />
       <item itemvalue="Application.TreetLeetcodeMain" />
+      <item itemvalue="Application.main14" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main14" />
         <item itemvalue="Application.TreetLeetcodeMain" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.ThreadTest" />
         <item itemvalue="Application.ThredStateMain" />
-        <item itemvalue="Application.main6" />
       </list>
     </recent_temporary>
   </component>
@@ -270,6 +570,7 @@
       <workItem from="1574057064691" duration="4000" />
       <workItem from="1574059290557" duration="139000" />
       <workItem from="1574149260478" duration="6805000" />
+      <workItem from="1596937322022" duration="3213000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1542009842960</created>
@@ -289,7 +590,42 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="451153000" />
+    <option name="totallyTimeSpent" value="454366000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -300,7 +636,20 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="COLUMN_ORDER" />
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
             </State>
           </value>
         </entry>
@@ -399,6 +748,113 @@
       <FILTER>cn.modesty.suanfa.*</FILTER>
     </SUITE>
   </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/offer/main10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/offer/main11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-590">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/offer/main12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/offer/main13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/offer/main14.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/collection/SetMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/collection/MapMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/tree/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/tree/RedBlackBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/thread/thread/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1156">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/thread/CustomThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1332">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/thread/ThreadMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/thread/ThreadRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/thread/ThredStateMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/thread/lock/LockMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
@@ -438,7 +894,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -456,6 +912,18 @@
               <list>
                 <option value="0.2" />
                 <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
