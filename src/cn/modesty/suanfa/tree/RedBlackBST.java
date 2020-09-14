@@ -12,6 +12,23 @@ package cn.modesty.suanfa.tree;
  *
  * 红黑树规定，插入得节点必须是红色的
  *
+ *
+ * 平衡二叉树:就是为了防止二叉搜索树变为线性数据结构,而出现的数据结构
+ *  * 而AVL树-绝对平衡树.左右子树的高度差不能超过1
+ *  * 红黑树:特性:
+ *  * 1.每个结点不是红色就是黑色
+ *  * 2.根节点:一定是黑色的
+ *  * 3.不可能有两个红色的节点连在一起,每个叶子节点都是黑色的空节点(NIl),并且不存储数据
+ *  * 4.每个节点,从该结点到达其可到达的叶子节点的所有路径,都包含相同树目的黑色节点
+ *  * 为什么要用红黑树,
+ *  * 三个操作:
+ *  * 1.变色:
+ *  * 2.左旋: 指针的变化
+ *  * 3.右旋:指针的变化
+ *  * 什么时候左旋?什么时候右旋呢?
+ *  * 所有新加的点一定是红色
+ *  * 红黑树建立的基础就是在二叉查找树的基础之上的.解决了二叉查找树的线性问题;进行平衡性;
+ *
  */
 public class RedBlackBST<Key extends Comparable<Key>,Value>{
     private static final boolean RED = true;
@@ -85,7 +102,7 @@ public class RedBlackBST<Key extends Comparable<Key>,Value>{
     /**
      * 两个子节点都是红色，变成黑色，根节点变成红尘
      *
-     * @param x
+     * @param h
      */
     private void flipColors(Node h){
         h.color = !h.color;
