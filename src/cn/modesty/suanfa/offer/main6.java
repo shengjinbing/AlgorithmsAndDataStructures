@@ -1,8 +1,5 @@
 package cn.modesty.suanfa.offer;
 
-import cn.modesty.suanfa.linked.List;
-import edu.princeton.cs.algs4.StdOut;
-import edu.princeton.cs.algs4.Transaction;
 
 import java.util.Stack;
 

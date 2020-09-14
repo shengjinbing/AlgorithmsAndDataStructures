@@ -1,7 +1,5 @@
 package cn.modesty.suanfa.topic;
 
-import cn.modesty.suanfa.collection.SetMain;
-
 public class TopicMain {
     public static void main(String[] args) {
         A a = new A();
