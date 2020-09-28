@@ -23,6 +23,10 @@ public class main38 {
     }
 
     public String[] permutation(String s) {
+        char[] chars = s.toCharArray();
+        for (int i = 0; i < chars.length; i++) {
+
+        }
         return null;
     }
 }

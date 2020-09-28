@@ -25,10 +25,24 @@ public class main43 {
     }
 
     public int countDigitOne(int n) {
-
-        for (int i = 0; i <= n; i++) {
-
+        int hight = n / 10;
+        int cur = n % 10;
+        int digit = 1;
+        int low = 0;
+        int res = 0;
+        while (cur != 0 || hight != 0){
+            if (cur == 0){
+                res += hight * digit;
+            }else if (cur == 1){
+                res += hight*digit + low + 1;
+            }else {
+                res += (hight+1) * digit;
+            }
+            low +=  cur * digit;
+            cur = hight % 10;
+            hight /= 10;
+            digit *= 10;
         }
-        return 0;
+        return res;
     }
 }

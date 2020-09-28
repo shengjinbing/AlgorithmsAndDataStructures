@@ -13,6 +13,7 @@ package cn.modesty.suanfa.offer;
  *
  * 输入：n = 3
  * 输出：3
+ *
  * 示例 2：
  *
  * 输入：n = 11
@@ -21,9 +22,19 @@ package cn.modesty.suanfa.offer;
  */
 public class main44 {
     public static void main(String[] args) {
+        System.out.println(findNthDigit(0));
 
     }
-    public int findNthDigit(int n) {
-       return 0;
+    public static int findNthDigit(int n) {
+        int digit = 1;
+        long start = 1,count = 9;
+        while (n > count){
+            n -= count;
+            digit += 1;
+            start *= 10;
+            count = 9 * start * digit;
+        }
+        Long num = start + (n -1) / digit;
+       return num.toString().charAt((n-1) % digit) - '0';
     }
 }

@@ -7,15 +7,28 @@ package cn.modesty.suanfa.offer;
  * 只能调整树中节点指针的指向
  */
 public class main36 {
+    Node head,pre;
     public static void main(String[] args) {
 
     }
     public Node treeToDoublyList(Node root) {
         //中序遍历有序
-        if (root == null)return null;
-        treeToDoublyList(root.left);
-        treeToDoublyList(root.right);
-        return null;
+        if(root == null) return null;
+        dfs(root);
+        //现在前一个结点为遍历的最后一个结点
+        head.left = pre;
+        pre.right = head;
+        return head;
+    }
+
+    public void dfs(Node cur){
+        if (cur == null) return;
+        dfs(cur.left);
+        if(pre != null) pre.right = cur;
+        else head = cur;
+        cur.left = pre;
+        pre = cur;
+        dfs(cur.right);
     }
 
 
