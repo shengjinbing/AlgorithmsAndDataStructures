@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92a197df-2787-4df5-9093-2b6b14c0dd8e" name="Default Changelist" comment="添加无向图">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/offer/main20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/collection/MapMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/collection/MapMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/collection/QueueMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/collection/QueueMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/genericity/AiFruitPlate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/genericity/AiFruitPlate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/genericity/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/genericity/Apple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/genericity/Fruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/genericity/Fruit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/genericity/GenericityMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/genericity/GenericityMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/genericity/Orange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/genericity/Orange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/genericity/Plate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/genericity/Plate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/RedBlackBST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/RedBlackBST$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/RedBlackBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/RedBlackBST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/TreetLeetcodeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/TreetLeetcodeMain.class" afterDir="false" />
+    <list default="true" id="e2aa4f6f-6b85-4d42-af37-0e7f4d408d22" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,74 +11,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ArithmeticSample$TreeMain.ic" NAME="TreeMain Coverage Results" MODIFIED="1541424575397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>cn.modesty.suanfa.tree.RedBlackBST</FILTER>
-    </SUITE>
-  </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="201" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/offer/main20.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/Observable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1512">
-              <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Kotlin File" />
-        <option value="Kotlin Class" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/thread/lock/LockMain.java" />
-        <option value="$PROJECT_DIR$/src/cn/modesty/suanfa/offer/main20.java" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="163" />
@@ -100,80 +20,10 @@
     <option name="width" value="1255" />
     <option name="height" value="809" />
   </component>
-  <component name="ProjectId" id="1UHWnxsWDx62vPnNc6bGlEu3CpJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AlgorithmsAndDataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmsAndDataStructures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgorithmsAndDataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmsAndDataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgorithmsAndDataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmsAndDataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="suanfa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgorithmsAndDataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmsAndDataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="suanfa" type="462c0819:PsiDirectoryNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="BASE64Encoder&#9;PSI&#9;JAVA://sun.misc.BASE64Encoder&#10;Collection&#9;PSI&#9;JAVA://java.util.Collection&#10;MimeMe&#9;PSI&#9;JAVA://com.sun.xml.internal.org.jvnet.mimepull.MIMEMessage&#10;Depth&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.DepthFirstSearch&#10;SET&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.SET&#10;bag&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.Bag&#10;collect&#9;PSI&#9;JAVA://java.util.Collection&#10;Cip&#9;PSI&#9;JAVA://javax.crypto.Cipher&#10;String&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java&#10;Hashma&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/HashMap.java&#10;RedBlackBST&#9;FILE&#9;jar://C:/Users/1/IdeaProjects/ArithmeticSample/libs/algs4.jar!/edu/princeton/cs/algs4/RedBlackBST.java&#10;Red&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.RedBlackBST&#10;Integer&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Integer.java&#10;BST&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.BST&#10;Transa&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.Transaction&#10;MinP&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.MinPQ&#10;MaxP&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.MaxPQ&#10;Hashmap&#9;PSI&#9;JAVA://java.util.HashMap&#10;LinkedBlockingQueue&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingQueue&#10;ThreadPoolExecutor&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;Linkh&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;arrayl&#9;PSI&#9;JAVA://java.util.ArrayList&#10;List&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java&#10;stack&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Stack.java&#10;stac&#9;PSI&#9;JAVA://java.util.Stack&#10;itera&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/java/util/Iterator.class&#10;Iter&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/java/lang/Iterable.class&#10;sta&#9;PSI&#9;JAVA://java.util.Stack&#10;vector&#9;PSI&#9;JAVA://java.util.Vector" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545990129745" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/cn/modesty/suanfa/reflex" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.modesty.suanfa.genericity" />
-      <recent name="cn.modesty.suanfa.producerPattern" />
-      <recent name="cn.modesty.suanfa.graph" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/cn/modesty/suanfa/reflex" />
-      <recent name="C:\Users\1\IdeaProjects\ArithmeticSample\src\cn\modesty\suanfa\thread" />
-      <recent name="C:\Users\1\IdeaProjects\ArithmeticSample\libs" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -187,561 +37,58 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main20">
-    <configuration name="GenericityMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.genericity.GenericityMain" />
-      <module name="ArithmeticSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.genericity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.collection.MapMain" />
-      <module name="ArithmeticSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.collection.QueueMain" />
-      <module name="ArithmeticSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreetLeetcodeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.tree.TreetLeetcodeMain" />
-      <module name="ArithmeticSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main1" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.main1" />
-      <module name="ArithmeticSample" />
-      <option name="PROGRAM_PARAMETERS" value="5 100.0 200.0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.offer.main20" />
-      <module name="ArithmeticSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.main1" />
-      <item itemvalue="Application.GenericityMain" />
-      <item itemvalue="Application.MapMain" />
-      <item itemvalue="Application.QueueMain" />
-      <item itemvalue="Application.TreetLeetcodeMain" />
-      <item itemvalue="Application.main20" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.main20" />
-        <item itemvalue="Application.GenericityMain" />
-        <item itemvalue="Application.QueueMain" />
-        <item itemvalue="Application.MapMain" />
-        <item itemvalue="Application.TreetLeetcodeMain" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="92a197df-2787-4df5-9093-2b6b14c0dd8e" name="Default Changelist" comment="" />
-      <created>1536044815276</created>
+      <changelist id="e2aa4f6f-6b85-4d42-af37-0e7f4d408d22" name="Default Changelist" comment="" />
+      <created>1602991985068</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1536044815276</updated>
-      <workItem from="1536044819472" duration="4847000" />
-      <workItem from="1536719199448" duration="877000" />
-      <workItem from="1536727280923" duration="2238000" />
-      <workItem from="1536984277762" duration="1588000" />
-      <workItem from="1537263104279" duration="55184000" />
-      <workItem from="1538984871618" duration="11771000" />
-      <workItem from="1539170995861" duration="58394000" />
-      <workItem from="1540205510671" duration="76263000" />
-      <workItem from="1541408042964" duration="12692000" />
-      <workItem from="1541996383132" duration="17803000" />
-      <workItem from="1542354343868" duration="6078000" />
-      <workItem from="1542436506369" duration="16728000" />
-      <workItem from="1542787540724" duration="34618000" />
-      <workItem from="1544077234430" duration="3813000" />
-      <workItem from="1544615960932" duration="598000" />
-      <workItem from="1544756707019" duration="2262000" />
-      <workItem from="1545134693287" duration="3150000" />
-      <workItem from="1545364694913" duration="9171000" />
-      <workItem from="1545909166526" duration="8143000" />
-      <workItem from="1545986964600" duration="3241000" />
-      <workItem from="1546070422225" duration="75000" />
-      <workItem from="1546070665470" duration="6027000" />
-      <workItem from="1546780494837" duration="190000" />
-      <workItem from="1553766051222" duration="11391000" />
-      <workItem from="1553915085149" duration="441000" />
-      <workItem from="1553918052637" duration="686000" />
-      <workItem from="1554019424004" duration="597000" />
-      <workItem from="1554082217216" duration="4358000" />
-      <workItem from="1554192696436" duration="4834000" />
-      <workItem from="1554365279483" duration="2000" />
-      <workItem from="1554797580026" duration="4000" />
-      <workItem from="1554797640844" duration="1838000" />
-      <workItem from="1555663655130" duration="355000" />
-      <workItem from="1559031683590" duration="5737000" />
-      <workItem from="1559116274749" duration="22282000" />
-      <workItem from="1559741767103" duration="3722000" />
-      <workItem from="1560358865812" duration="10931000" />
-      <workItem from="1561102044521" duration="2467000" />
-      <workItem from="1561427859939" duration="6576000" />
-      <workItem from="1561789637093" duration="4387000" />
-      <workItem from="1561881571409" duration="3060000" />
-      <workItem from="1562837595667" duration="4345000" />
-      <workItem from="1564392759646" duration="2111000" />
-      <workItem from="1571903821157" duration="9606000" />
-      <workItem from="1574041657695" duration="400000" />
-      <workItem from="1574042305814" duration="302000" />
-      <workItem from="1574057064691" duration="4000" />
-      <workItem from="1574059290557" duration="139000" />
-      <workItem from="1574149260478" duration="6805000" />
-      <workItem from="1600086860715" duration="611000" />
-      <workItem from="1600342123724" duration="15000" />
+      <updated>1602991985068</updated>
+      <workItem from="1602991986171" duration="2000" />
     </task>
-    <task id="LOCAL-00001" summary="修改">
-      <created>1542009842960</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1542009842960</updated>
-    </task>
-    <task id="LOCAL-00002" summary="添加无向图">
-      <created>1542787895449</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1542787895449</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="455071000" />
+    <option name="totallyTimeSpent" value="2000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="163" y="194" width="1255" height="809" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23933055" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33037037" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3288889" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改" />
-    <MESSAGE value="添加无向图" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加无向图" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="437" height="466" key="DebuggerActiveHint" timestamp="1596530215435">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="429" height="466" key="DebuggerActiveHint/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596441396220" />
-    <state width="437" height="466" key="DebuggerActiveHint/0.23.1440.797/-2560.-244.2560.1417@0.23.1440.797" timestamp="1596530215435" />
-    <state x="144" y="79" width="1152" height="720" key="DiffContextDialog" timestamp="1596611543494">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="144" y="79" width="1152" height="720" key="DiffContextDialog/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596611510926" />
-    <state x="144" y="79" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1590386753650" />
-    <state x="144" y="79" width="1152" height="720" key="DiffContextDialog/0.23.1440.797/-2560.-244.2560.1417@0.23.1440.797" timestamp="1596611543494" />
-    <state width="1398" height="242" key="GridCell.Tab.0.bottom" timestamp="1598403663408">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1598403663408" />
-    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590472682341" />
-    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.23.1440.797/-2560.-244.2560.1417@0.23.1440.797" timestamp="1596778629482" />
-    <state width="1398" height="242" key="GridCell.Tab.0.center" timestamp="1598403663406">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.center/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1598403663406" />
-    <state width="1398" height="242" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590472682339" />
-    <state width="1398" height="242" key="GridCell.Tab.0.center/0.23.1440.797/-2560.-244.2560.1417@0.23.1440.797" timestamp="1596778629477" />
-    <state width="1398" height="242" key="GridCell.Tab.0.left" timestamp="1598403663403">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.left/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1598403663403" />
-    <state width="1398" height="242" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590472682336" />
-    <state width="1398" height="242" key="GridCell.Tab.0.left/0.23.1440.797/-2560.-244.2560.1417@0.23.1440.797" timestamp="1596778629476" />
-    <state width="1398" height="242" key="GridCell.Tab.0.right" timestamp="1598403663407">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.right/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1598403663407" />
-    <state width="1398" height="242" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590472682340" />
-    <state width="1398" height="242" key="GridCell.Tab.0.right/0.23.1440.797/-2560.-244.2560.1417@0.23.1440.797" timestamp="1596778629478" />
-    <state width="1398" height="270" key="GridCell.Tab.1.bottom" timestamp="1596530224415">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="270" key="GridCell.Tab.1.bottom/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596530224415" />
-    <state width="1398" height="270" key="GridCell.Tab.1.center" timestamp="1596530224413">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="270" key="GridCell.Tab.1.center/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596530224413" />
-    <state width="1398" height="270" key="GridCell.Tab.1.left" timestamp="1596530224412">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="270" key="GridCell.Tab.1.left/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596530224412" />
-    <state width="1398" height="270" key="GridCell.Tab.1.right" timestamp="1596530224414">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="270" key="GridCell.Tab.1.right/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596530224414" />
-    <state x="436" y="167" key="RollbackChangesDialog" timestamp="1597020836942">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="436" y="167" key="RollbackChangesDialog/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1597020836942" />
-    <state x="436" y="167" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1590386755194" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1596684497724">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596684497724" />
-    <state width="254" height="200" key="ShowFilterAction_Filter_Popup" timestamp="1596684509771">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="254" height="200" key="ShowFilterAction_Filter_Popup/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596684509771" />
-    <state x="374" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1598858546327">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="374" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1598858546327" />
-    <state x="374" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1590982316137" />
-    <state x="374" y="274" key="com.intellij.ide.util.TipDialog/0.23.1440.797/-2560.-244.2560.1417@0.23.1440.797" timestamp="1596761944782" />
-    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598858564309">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1598858564309" />
-    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup" timestamp="1597300245508">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1597300245508" />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AlgorithmsAndDataStructures$SortMain.ic" NAME="SortMain Coverage Results" MODIFIED="1561545059099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>cn.modesty.suanfa.sort.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/AlgorithmsAndDataStructures$BCELTiming.ic" NAME="BCELTiming Coverage Results" MODIFIED="1573718175471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>cn.modesty.suanfa.*</FILTER>
-    </SUITE>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/offer/main14.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/collection/SetMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/collection/MapMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/tree/RedBlackBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/thread/thread/ThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/thread/CustomThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/thread/ThreadMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/thread/ThreadRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/thread/ThredStateMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/thread/lock/LockMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/collection/QueueMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/concurrent/Flow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
-          <caret line="165" column="19" selection-start-line="165" selection-start-column="19" selection-end-line="165" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/modesty/suanfa/offer/main20.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/Observable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>ArithmeticSample</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>KotlinJavaRuntime</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
