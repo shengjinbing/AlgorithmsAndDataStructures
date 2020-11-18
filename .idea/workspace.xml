@@ -2,144 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92a197df-2787-4df5-9093-2b6b14c0dd8e" name="Default Changelist" comment="添加无向图">
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/array/ArrayMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/array/ByteMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/dynamicprogramming/DynamicMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/mathematics/MathematicsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/str/StrMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/thread/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/thread/SynchronrizedMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/META-INF/ArithmeticSample.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/BCELTiming.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/BCELTiming.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/annotation/AnnotationMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/annotation/AnnotationMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/annotation/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/annotation/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/annotation/TestAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/annotation/TestAnnotation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/backtracking/EightQueens.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/backtracking/EightQueens.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/backtracking/Knapsack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/backtracking/Knapsack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/backtracking/Pattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/backtracking/Pattern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/backtracking/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/backtracking/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/ArrayQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/IPQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/IPQ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/LinkQueue$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/LinkQueue$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/LinkQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/LinkQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/LinkStack$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/LinkStack$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/LinkStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/LinkStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/MaxPQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/MaxPQ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/PQdata.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/PQdata.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/ResizeingArrayStack$Itr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/ResizeingArrayStack$Itr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/ResizeingArrayStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/ResizeingArrayStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/StackAlg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/StackAlg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/bagqueuestack/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/collection/ListMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/collection/ListMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/dynamicprogramming/Path.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/dynamicprogramming/Path.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/dynamicprogramming/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/dynamicprogramming/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/find/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/find/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/find/FindMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/find/FindMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/find/TreeData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/find/TreeData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/BreadthFirstPaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/BreadthFirstPaths.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/CC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/CC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/Cycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/Cycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/DepthFirstOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/DepthFirstOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/DepthFirstPaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/DepthFirstPaths.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/DepthFirstSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/DepthFirstSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/Digraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/Digraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/DirectedCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/DirectedCycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/GraphMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/GraphMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/KosarajuSCC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/KosarajuSCC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/Paths.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/Paths.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/Search.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/SymbolGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/SymbolGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/TwoColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/TwoColor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/mintree/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/mintree/Edge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/mintree/EdgeWeightedGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/mintree/EdgeWeightedGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/mintree/MTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/graph/mintree/MTS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/ClassLoaderTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/ClassLoaderTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/ClassLoaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/ClassLoaderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/GzipUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/GzipUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/gzip/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/heap/Heap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/heap/Heap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/heap/MainHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/heap/MainHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/huffman/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/huffman/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/LRUCache$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/LRUCache$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/LRUCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/Linked$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/Linked$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/Linked.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/Linked.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/array/ArrayMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/array/ArrayMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/collection/MapMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/collection/MapMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/LinkedMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/LinkedMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/List.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/LruLinked$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/LruLinked$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/LruLinked.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/LruLinked.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/nine/TopologyMain$Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/nine/TopologyMain$Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/nine/TopologyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/nine/TopologyMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main36$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main36$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main36.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main36.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main38.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main38.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main43.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main43.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main44.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main44.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main50.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/main50.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/ClimbStairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/ClimbStairs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/EvalRPN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/EvalRPN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/FirstMissingPositive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/FirstMissingPositive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/HasCycle$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/HasCycle$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/HasCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/HasCycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/IsValid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/IsValid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/LongestCommonPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/LongestCommonPrefix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/LongestValidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/LongestValidParentheses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MaxSlidingWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MaxSlidingWindow$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MaxSlidingWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MaxSlidingWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MergeKLists$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MergeKLists$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MergeKLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MergeKLists.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/Mode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/Mode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MyCircularDeque$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MyCircularDeque$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MyCircularDeque.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/MyCircularDeque.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/RomanToInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/RomanToInt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/Sqrt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/Sqrt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/StrStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/StrStr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/ThreesNumsSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/practice/ThreesNumsSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Consumer1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Consumer1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Consumer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Consumer2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/PCData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/PCData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/PCData1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/PCData1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/PCData2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/PCData2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Producer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Producer1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Producer1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Producter2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/producerPattern/Producter2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/recursion/EuclideanAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/recursion/EuclideanAlgorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/recursion/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/recursion/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/reflex/RefInvoke.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/reflex/RefInvoke.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/ListNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/reflex/ReflexMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/reflex/ReflexMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/reflex/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/reflex/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/HeapSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/InsertSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/LinearSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/LinearSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/MergerSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/MergerSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/PracticeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/PracticeMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/SelectSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/SelectSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/SortMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/SortMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/str/StringMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/str/StringMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/str/StringStringBuildStringbufferMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/str/StringStringBuildStringbufferMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/ThreadMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/ThreadMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/ThreadRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/ThreadRunnable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/ThredStateMain$Thread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/ThredStateMain$Thread1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/ThredStateMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/ThredStateMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/thread/Thread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/thread/Thread1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/thread/Thread2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/thread/Thread2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/thread/Thread3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/thread/Thread3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/thread/ThreadManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/thread/ThreadManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/thread/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/thread/ThreadTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/BST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/BST$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/BST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/TreeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/TreeMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/tree/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/unionfind/UF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/unionfind/UF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/unionfind/UFMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/unionfind/UFMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/linked/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/linked/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/offer/main36.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/offer/main36.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/offer/main38.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/offer/main38.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/offer/main43.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/offer/main43.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/offer/main44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/offer/main44.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/thread/ThreadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/thread/ThreadMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/lock/LockMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/lock/LockMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/array/ArrayMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/array/ArrayMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/collection/MapMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/collection/MapMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/linked/LinkedMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/linked/LinkedMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/offer/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/offer/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/reflex/ReflexMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/reflex/ReflexMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/MergerSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/MergerSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/SortMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/SortMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/thread/lock/LockMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/thread/lock/LockMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,9 +59,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
         <option value="Interface" />
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -190,6 +75,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -202,7 +88,7 @@
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545990129745" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/cn/modesty/suanfa/reflex" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/cn/modesty/suanfa/thread" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -217,18 +103,58 @@
       <recent name="cn.modesty.suanfa.graph" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/cn/modesty/suanfa/thread" />
       <recent name="$PROJECT_DIR$/src/cn/modesty/suanfa/reflex" />
       <recent name="C:\Users\1\IdeaProjects\ArithmeticSample\src\cn\modesty\suanfa\thread" />
       <recent name="C:\Users\1\IdeaProjects\ArithmeticSample\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayMain">
+  <component name="RunManager" selected="Application.MathematicsMain">
     <configuration name="ArrayMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.array.ArrayMain" />
       <module name="ArithmeticSample" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.modesty.suanfa.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.dynamicprogramming.DynamicMain" />
+      <module name="ArithmeticSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.modesty.suanfa.dynamicprogramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathematicsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.mathematics.MathematicsMain" />
+      <module name="ArithmeticSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.modesty.suanfa.mathematics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.sort.SortMain" />
+      <module name="ArithmeticSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.modesty.suanfa.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,73 +176,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.offer.main39" />
+    <configuration name="cn.modesty.suanfa.byte.DaKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="ArithmeticSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main40" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.offer.main40" />
-      <module name="ArithmeticSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main44" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.offer.main44" />
-      <module name="ArithmeticSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.offer.main50" />
-      <module name="ArithmeticSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.byte.DaKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.main1" />
-      <item itemvalue="Application.main39" />
-      <item itemvalue="Application.main40" />
-      <item itemvalue="Application.main50" />
-      <item itemvalue="Application.main44" />
+      <item itemvalue="Application.SortMain" />
       <item itemvalue="Application.ArrayMain" />
+      <item itemvalue="Application.DynamicMain" />
+      <item itemvalue="Kotlin.cn.modesty.suanfa.byte.DaKt" />
+      <item itemvalue="Application.MathematicsMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MathematicsMain" />
+        <item itemvalue="Application.DynamicMain" />
+        <item itemvalue="Kotlin.cn.modesty.suanfa.byte.DaKt" />
         <item itemvalue="Application.ArrayMain" />
-        <item itemvalue="Application.main44" />
-        <item itemvalue="Application.main50" />
-        <item itemvalue="Application.main40" />
-        <item itemvalue="Application.main39" />
+        <item itemvalue="Application.SortMain" />
       </list>
     </recent_temporary>
   </component>
@@ -456,64 +343,53 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="437" height="527" key="DebuggerActiveHint/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1600671888648" />
-    <state width="429" height="466" key="DebuggerActiveHint/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596441396220" />
-    <state width="437" height="466" key="DebuggerActiveHint/0.23.1440.797/-2560.-244.2560.1417@0.23.1440.797" timestamp="1596530215435" />
-    <state x="144" y="79" width="1152" height="720" key="DiffContextDialog" timestamp="1596611543494">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="144" y="79" width="1152" height="720" key="DiffContextDialog/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596611510926" />
-    <state x="144" y="79" width="1152" height="720" key="DiffContextDialog/0.23.1440.797/-2560.-244.2560.1417@0.23.1440.797" timestamp="1596611543494" />
-    <state width="1398" height="270" key="GridCell.Tab.0.bottom" timestamp="1601192304491">
+    <state width="1398" height="242" key="GridCell.Tab.0.bottom" timestamp="1605661683429">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="270" key="GridCell.Tab.0.bottom/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1601192304491" />
+    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1605661683429" />
     <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1598862185608" />
-    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.23.1440.797/-2560.-244.2560.1417@0.23.1440.797" timestamp="1596778629482" />
     <state width="1398" height="270" key="GridCell.Tab.0.bottom/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1601192207996" />
-    <state width="1398" height="270" key="GridCell.Tab.0.center" timestamp="1601192304489">
+    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.23.1440.801/-2560.-191.2560.1417@0.23.1440.801" timestamp="1605172153745" />
+    <state width="1398" height="242" key="GridCell.Tab.0.center" timestamp="1605661683428">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="270" key="GridCell.Tab.0.center/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1601192304489" />
+    <state width="1398" height="242" key="GridCell.Tab.0.center/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1605661683428" />
     <state width="1398" height="242" key="GridCell.Tab.0.center/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1598862185607" />
-    <state width="1398" height="242" key="GridCell.Tab.0.center/0.23.1440.797/-2560.-244.2560.1417@0.23.1440.797" timestamp="1596778629477" />
     <state width="1398" height="270" key="GridCell.Tab.0.center/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1601192207994" />
-    <state width="1398" height="270" key="GridCell.Tab.0.left" timestamp="1601192304487">
+    <state width="1398" height="242" key="GridCell.Tab.0.center/0.23.1440.801/-2560.-191.2560.1417@0.23.1440.801" timestamp="1605172153743" />
+    <state width="1398" height="242" key="GridCell.Tab.0.left" timestamp="1605661683427">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="270" key="GridCell.Tab.0.left/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1601192304487" />
+    <state width="1398" height="242" key="GridCell.Tab.0.left/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1605661683427" />
     <state width="1398" height="242" key="GridCell.Tab.0.left/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1598862185606" />
-    <state width="1398" height="242" key="GridCell.Tab.0.left/0.23.1440.797/-2560.-244.2560.1417@0.23.1440.797" timestamp="1596778629476" />
     <state width="1398" height="270" key="GridCell.Tab.0.left/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1601192207993" />
-    <state width="1398" height="270" key="GridCell.Tab.0.right" timestamp="1601192304490">
+    <state width="1398" height="242" key="GridCell.Tab.0.left/0.23.1440.801/-2560.-191.2560.1417@0.23.1440.801" timestamp="1605172153742" />
+    <state width="1398" height="242" key="GridCell.Tab.0.right" timestamp="1605661683429">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="270" key="GridCell.Tab.0.right/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1601192304490" />
+    <state width="1398" height="242" key="GridCell.Tab.0.right/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1605661683429" />
     <state width="1398" height="242" key="GridCell.Tab.0.right/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1598862185608" />
-    <state width="1398" height="242" key="GridCell.Tab.0.right/0.23.1440.797/-2560.-244.2560.1417@0.23.1440.797" timestamp="1596778629478" />
     <state width="1398" height="270" key="GridCell.Tab.0.right/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1601192207995" />
-    <state width="1398" height="270" key="GridCell.Tab.1.bottom" timestamp="1601192304494">
+    <state width="1398" height="242" key="GridCell.Tab.0.right/0.23.1440.801/-2560.-191.2560.1417@0.23.1440.801" timestamp="1605172153744" />
+    <state width="1398" height="270" key="GridCell.Tab.1.bottom" timestamp="1605576161108">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="270" key="GridCell.Tab.1.bottom/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1601192304494" />
-    <state width="1398" height="270" key="GridCell.Tab.1.bottom/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596530224415" />
+    <state width="1398" height="270" key="GridCell.Tab.1.bottom/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1605576161108" />
     <state width="1398" height="270" key="GridCell.Tab.1.bottom/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1601192208130" />
-    <state width="1398" height="270" key="GridCell.Tab.1.center" timestamp="1601192304492">
+    <state width="1398" height="270" key="GridCell.Tab.1.center" timestamp="1605576161106">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="270" key="GridCell.Tab.1.center/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1601192304492" />
-    <state width="1398" height="270" key="GridCell.Tab.1.center/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596530224413" />
+    <state width="1398" height="270" key="GridCell.Tab.1.center/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1605576161106" />
     <state width="1398" height="270" key="GridCell.Tab.1.center/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1601192208128" />
-    <state width="1398" height="270" key="GridCell.Tab.1.left" timestamp="1601192304492">
+    <state width="1398" height="270" key="GridCell.Tab.1.left" timestamp="1605576161105">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="270" key="GridCell.Tab.1.left/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1601192304492" />
-    <state width="1398" height="270" key="GridCell.Tab.1.left/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596530224412" />
+    <state width="1398" height="270" key="GridCell.Tab.1.left/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1605576161105" />
     <state width="1398" height="270" key="GridCell.Tab.1.left/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1601192208127" />
-    <state width="1398" height="270" key="GridCell.Tab.1.right" timestamp="1601192304493">
+    <state width="1398" height="270" key="GridCell.Tab.1.right" timestamp="1605576161107">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="270" key="GridCell.Tab.1.right/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1601192304493" />
-    <state width="1398" height="270" key="GridCell.Tab.1.right/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596530224414" />
+    <state width="1398" height="270" key="GridCell.Tab.1.right/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1605576161107" />
     <state width="1398" height="270" key="GridCell.Tab.1.right/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1601192208129" />
     <state x="144" y="79" key="MergeDialog" timestamp="1600062860230">
       <screen x="0" y="0" width="1440" height="900" />
@@ -532,18 +408,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1600131549470" />
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596684497724" />
-    <state width="254" height="200" key="ShowFilterAction_Filter_Popup" timestamp="1596684509771">
+    <state x="374" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1605607592591">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="254" height="200" key="ShowFilterAction_Filter_Popup/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1596684509771" />
-    <state x="374" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1600235237281">
-      <screen x="0" y="23" width="1440" height="800" />
-    </state>
-    <state x="374" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1600222930783" />
+    <state x="374" y="275" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1605607592591" />
     <state x="374" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1599188008532" />
-    <state x="374" y="274" key="com.intellij.ide.util.TipDialog/0.23.1440.797/-2560.-244.2560.1417@0.23.1440.797" timestamp="1596761944782" />
-    <state x="374" y="275" key="com.intellij.ide.util.TipDialog/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1600235237281" />
+    <state x="374" y="275" key="com.intellij.ide.util.TipDialog/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1605509038543" />
     <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600062843181">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

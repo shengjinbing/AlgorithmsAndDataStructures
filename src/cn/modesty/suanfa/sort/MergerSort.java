@@ -25,7 +25,7 @@ public class MergerSort {
         int   j    = mid + 1;//右边数组下标
         for (int k = low; k < hi; k++) {
             //将临时数组赋值
-            temp[i] = a[i];
+            temp[k] = a[k];
         }
         for (int k = low; k < hi; k++) {
             if (i >= mid) {
