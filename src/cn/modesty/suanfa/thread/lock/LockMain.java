@@ -5,13 +5,13 @@ package cn.modesty.suanfa.thread.lock;
  * 产生死锁的四个必要条件
  * 5.1 互斥条件：
  * 进程要求对所分配的资源（如打印机）进行排他性控制，即在一段时间内某资源仅为一个进程所占有。此时若有其他进程请求该资源，则请求进程只能等待。
- *
+ * <p>
  * 5.2 不可剥夺条件:
  * 进程所获得的资源在未使用完毕之前，不能被其他进程强行夺走，即只能由获得该资源的进程自己来释放（只能是主动释放)。
- *
+ * <p>
  * 5.3 请求与保持条件：
  * 进程已经保持了至少一个资源，但又提出了新的资源请求，而该资源已被其他进程占有，此时请求进程被阻塞，但对自己已获得的资源保持不放。
- *
+ * <p>
  * 5.4 循环等待条件:
  * 存在一种进程资源的循环等待链，链中每一个进程已获得的资源同时被 链中下一个进程所请求。即存在一个处于等待状态的进程集
  * 合{Pl, P2, …, pn}，其中Pi等 待的资源被P(i+1)占有（i=0, 1, …, n-1)，Pn等待的资源被P0占有，如图2-15所示。
@@ -19,11 +19,28 @@ package cn.modesty.suanfa.thread.lock;
  * 由P(i+1)来满足，而循环等待条件则无此限制。 例如，系统中有两台输出设备，P0占有一台，PK占有另一台，且K不属于集合{0, 1, …, n}。
  * Pn等待一台输出设备，它可以从P0获得，也可能从PK获得。因此，虽然Pn、P0和其他 一些进程形成了循环等待圈，但PK不在圈内，
  * 若PK释放了输出设备，则可打破循环等待, 如图2-16所示。因此循环等待只是死锁的必要条件。
- *
  */
 public class LockMain {
-
     public static void main(String[] args) {
-
+        Thread thread = new Thread() {
+            @Override
+            public void run() {
+                for (int i = 0; i < 1_000_000; i++) {
+                    if (isInterrupted()) {
+                        System.out.println(i);
+                    }
+                }
+            }
+        };
+        thread.start();
+        try {
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        //thread.stop();??
+        thread.isInterrupted();
     }
+
+
 }

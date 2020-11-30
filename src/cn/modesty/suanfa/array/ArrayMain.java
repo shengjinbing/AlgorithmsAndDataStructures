@@ -11,15 +11,88 @@ public class ArrayMain {
         int[] data = {7,1,5,3,6,4};
         int[] data1 = {1,2,3,4,5};
         int[] data2 = {7,6,4,3,1};
-        System.out.println(maxProfit(data));
-        System.out.println(maxProfit(data1));
-        System.out.println(maxProfit(data2));
+        //System.out.println(maxProfit(data));
+        //System.out.println(maxProfit(data1));
+        //System.out.println(maxProfit(data2));
 
         int[] data3 = {1,2,3,4,5,6,7};
-        rotate(data3,3);
+        //rotate(data3,3);
 
-        intersect(new int[]{1,2,2,1},new int[]{2,2});
+        //intersect(new int[]{1,2,2,1},new int[]{2,2});
 
+        //merge(new int[]{2,0},1,new int[]{1},1);
+        System.out.println(firstBadVersion(4));
+    }
+
+    /**
+     * 第一个错误的版本
+     * @param n
+     * @return
+     */
+    public static int firstBadVersion(int n) {
+        int s = 1;
+        int e = n;
+        while (s < e){
+
+            
+            int mid = s + (e - s)/2;
+            if (isBadVersion(mid)){
+                e = mid;
+            }else{
+                s = mid + 1;
+            }
+        }
+        return s;
+
+        /*if (isBadVersion(1))return 1;
+        return recursion(1,n);*/
+    }
+
+    public static int recursion(int s,int e){
+        if(s >= e)return 0;
+        int mid = s + (e - s)/2;
+        if(!isBadVersion(mid) && isBadVersion(mid+1)){
+            return mid+1;
+        }else if(isBadVersion(mid) && !isBadVersion(mid-1)){
+            return mid;
+        }else if (isBadVersion(mid)){
+            return recursion(s,mid-1);
+        }else {
+            return recursion(mid+1,e);
+        }
+    }
+
+    private static boolean isBadVersion(int i) {
+        return i >= 4;
+    }
+
+    /**
+     * 合并两个有序数组
+     * 给你两个有序整数数组 nums1 和 nums2，请你将 nums2 合并到 nums1 中，使 nums1 成为一个有序数组。
+     * 说明：
+     * 初始化 nums1 和 nums2 的元素数量分别为 m 和 n 。
+     * 你可以假设 nums1 有足够的空间（空间大小大于或等于 m + n）来保存 nums2 中的元素。
+     * 示例：
+     *
+     * 输入：
+     * nums1 = [1,2,3,0,0,0], m = 3
+     * nums2 = [2,5,6],       n = 3
+     *
+     * 输出：[1,2,2,3,5,6]
+     *
+     *
+     */
+    public static void merge(int[] nums1, int m, int[] nums2, int n) {
+        int i = m - 1;
+        int j = n - 1;
+        int k = m + n - 1;
+        while (j >= 0){
+            if (i >= 0 && nums1[i] > nums2[j]){
+                nums1[k--] = nums1[i--];
+            }else {
+                nums2[k--] = nums2[j--];
+            }
+        }
     }
 
     /**
