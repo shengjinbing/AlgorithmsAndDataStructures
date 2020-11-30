@@ -1,6 +1,7 @@
 package cn.modesty.suanfa.collection;
 
 import cn.modesty.suanfa.linked.LRUCache;
+import cn.modesty.suanfa.linked.LruCache1;
 
 import java.util.*;
 
@@ -90,7 +91,7 @@ public class MapMain {
         //LinkHashMap
         //ddBefore(lm.header)是把当前访问的元素挪到head的前面,即最近访问的元素被放到了链表头，
         // 如此要实现LRU算法只需要从链表末尾往前删除就可以了，多么巧妙的方法
-        LRUCache<String,String> linkedHashMap = new LRUCache(4);
+        LruCache1<String,String> linkedHashMap = new LruCache1(4);
         linkedHashMap.put("1","1");
         linkedHashMap.put("2","2");
         linkedHashMap.put("3","3");

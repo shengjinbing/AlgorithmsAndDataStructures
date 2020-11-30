@@ -70,6 +70,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="163" />
+    <option name="y" value="60" />
+    <option name="width" value="1632" />
+    <option name="height" value="943" />
+  </component>
   <component name="ProjectId" id="1UHWnxsWDx62vPnNc6bGlEu3CpJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -109,13 +115,13 @@
       <recent name="C:\Users\1\IdeaProjects\ArithmeticSample\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MathematicsMain">
-    <configuration name="ArrayMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.array.ArrayMain" />
+  <component name="RunManager" selected="Application.MapMain">
+    <configuration name="DynamicMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.dynamicprogramming.DynamicMain" />
       <module name="ArithmeticSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.array.*" />
+          <option name="PATTERN" value="cn.modesty.suanfa.dynamicprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.dynamicprogramming.DynamicMain" />
+    <configuration name="MapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.collection.MapMain" />
       <module name="ArithmeticSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.dynamicprogramming.*" />
+          <option name="PATTERN" value="cn.modesty.suanfa.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.sort.SortMain" />
+    <configuration name="ReflexMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.reflex.ReflexMain" />
       <module name="ArithmeticSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.sort.*" />
+          <option name="PATTERN" value="cn.modesty.suanfa.reflex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,19 +197,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.main1" />
-      <item itemvalue="Application.SortMain" />
-      <item itemvalue="Application.ArrayMain" />
       <item itemvalue="Application.DynamicMain" />
-      <item itemvalue="Kotlin.cn.modesty.suanfa.byte.DaKt" />
       <item itemvalue="Application.MathematicsMain" />
+      <item itemvalue="Kotlin.cn.modesty.suanfa.byte.DaKt" />
+      <item itemvalue="Application.ReflexMain" />
+      <item itemvalue="Application.MapMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapMain" />
+        <item itemvalue="Application.ReflexMain" />
         <item itemvalue="Application.MathematicsMain" />
         <item itemvalue="Application.DynamicMain" />
         <item itemvalue="Kotlin.cn.modesty.suanfa.byte.DaKt" />
-        <item itemvalue="Application.ArrayMain" />
-        <item itemvalue="Application.SortMain" />
       </list>
     </recent_temporary>
   </component>
@@ -430,11 +436,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AlgorithmsAndDataStructures$SortMain.ic" NAME="SortMain Coverage Results" MODIFIED="1561545059099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>cn.modesty.suanfa.sort.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/AlgorithmsAndDataStructures$TopicMain.ic" NAME="TopicMain Coverage Results" MODIFIED="1600063140051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>cn.modesty.suanfa.topic.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AlgorithmsAndDataStructures$SortMain.ic" NAME="SortMain Coverage Results" MODIFIED="1561545059099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cn.modesty.suanfa.sort.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/AlgorithmsAndDataStructures$BCELTiming.ic" NAME="BCELTiming Coverage Results" MODIFIED="1573718175471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>cn.modesty.suanfa.*</FILTER>
