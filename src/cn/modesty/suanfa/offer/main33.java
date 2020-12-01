@@ -1,5 +1,10 @@
 package cn.modesty.suanfa.offer;
 
+import cn.modesty.suanfa.tree.TreeNode;
+import com.sun.jmx.remote.internal.ArrayQueue;
+
+import java.util.*;
+
 /**
  * 二叉搜索树的后序遍历序列
  * <p>
@@ -28,7 +33,19 @@ public class main33 {
     public static void main(String[] args) {
         int[] a = {1, 3, 2, 6, 5};
         System.out.println(verifyPostorder(a));
+        List<Integer> data = new ArrayList();
     }
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        ListNode a = headA;
+        ListNode b = headB;
+        while(true){
+            a = a.next == null?headB:a.next;
+            b = b.next == null?headA:b.next;
+            if(a == headB && b == headA)return null;
+            if(a == b)return a;
+        }
+    }
+
 
     public static boolean verifyPostorder(int[] postorder) {
         if (postorder == null || postorder.length == 0) return false;
