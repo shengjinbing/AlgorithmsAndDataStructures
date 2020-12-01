@@ -3,11 +3,36 @@ package cn.modesty.suanfa.collection;
 
 import com.sun.jmx.remote.internal.ArrayQueue;
 
-import java.util.ArrayDeque;
-import java.util.Stack;
+import java.util.*;
 
 public class QueueMain {
     public static void main(String[] args) {
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue(new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return o2 - o1;
+            }
+        });
+        priorityQueue.add(4);
+        priorityQueue.add(5);
+        priorityQueue.add(1);
+        System.out.println(priorityQueue.poll());
+
+        Queue<Integer> queue = new LinkedList();
+        queue.add(1);
+        queue.offer(1);
+        queue.poll();
+        queue.peek();
+
+        LinkedList linkedList = new LinkedList<Integer>();
+        linkedList.add(1);
+        linkedList.add(2);
+        linkedList.add(3);
+        linkedList.add(4);
+        linkedList.poll();
+        linkedList.pop();
+        System.out.println(linkedList.size());
+
         ArrayQueue arrayQueue = new ArrayQueue<Integer>(10);
         arrayQueue.add(1);
         arrayQueue.add(2);

@@ -22,6 +22,16 @@ public class AiFruitPlate<T> implements Plate<T> {
         if(index >= 0) return fruits.get(index);
         return null;
     }
+
+    /**
+     * 泛型方法
+     * @param e
+     * @param <E>
+     * @return
+     */
+    public <E> E getList(E e){
+        return e;
+    }
 }
 
 

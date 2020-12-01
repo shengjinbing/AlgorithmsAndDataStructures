@@ -1,19 +1,79 @@
 package cn.modesty.suanfa.tree;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /**
- * 1.Exception和Error有什么区别?
- * 2.NoClassDefFoundError和ClassNOtFoundException区别？
  *
- * Throw：
- * 作用在方法内，表示抛出具体异常，由方法体内的语句处理。
- * 具体向外抛出的动作，所以它抛出的是一个异常实体类。若执行了Throw一定是抛出了某种异常。
- * Throws：
- * 作用在方法的声明上，表示如果抛出异常，则由该方法的调用者来进行异常处理。
- * 主要的声明这个方法会抛出会抛出某种类型的异常，让它的使用者知道捕获异常的类型。
- * 出现异常是一种可能性，但不一定会发生异常。
  */
 public class main {
     public static void main(String[] args) {
+        letterCombinations("23");
+    }
 
+    /**
+     * 电话号码的字母组合
+     */
+    public static List<String> letterCombinations(String digits) {
+        List<String> combinations = new ArrayList<String>();
+        if (digits.length() == 0) {
+            return combinations;
+        }
+        Map<Character, String> phoneMap = new HashMap<Character, String>() {{
+            put('2', "abc");
+            put('3', "def");
+            put('4', "ghi");
+            put('5', "jkl");
+            put('6', "mno");
+            put('7', "pqrs");
+            put('8', "tuv");
+            put('9', "wxyz");
+        }};
+        backtrack(combinations, phoneMap, digits, 0, new StringBuffer());
+        return combinations;
+    }
+
+    public static void backtrack(List<String> combinations, Map<Character, String> phoneMap, String digits, int index, StringBuffer combination) {
+        if (index == digits.length()) {
+            combinations.add(combination.toString());
+        } else {
+            char digit = digits.charAt(index);
+            String letters = phoneMap.get(digit);
+            int lettersCount = letters.length();
+            for (int i = 0; i < lettersCount; i++) {
+                combination.append(letters.charAt(i));
+                backtrack(combinations, phoneMap, digits, index + 1, combination);
+                combination.deleteCharAt(index);
+            }
+        }
+    }
+
+
+    static int n = 0;
+    static int ans = 0;
+
+    /**
+     * 二叉搜索树中第K小的元素
+     */
+    public static int kthSmallest(TreeNode root, int k) {
+        search(root, k);
+        return ans;
+    }
+
+    private static void search(TreeNode node, int k) {
+        if (node.left != null) {
+            search(node.left, k);
+        }
+        n++;
+        if (n == k) {
+            ans = node.val;
+        } else if (n > k) {
+            return;//剪枝
+        }
+        if (node.right != null) {
+            search(node.right, k);
+        }
     }
 }

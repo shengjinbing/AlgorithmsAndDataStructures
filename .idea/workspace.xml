@@ -2,29 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92a197df-2787-4df5-9093-2b6b14c0dd8e" name="Default Changelist" comment="添加无向图">
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/array/ByteMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/dynamicprogramming/DynamicMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/mathematics/MathematicsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/str/StrMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/thread/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/thread/SynchronrizedMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/interviewquestion/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/thread/thread/ThreadLoaclMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/array/ArrayMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/array/ArrayMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/collection/MapMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/collection/MapMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/collection/QueueMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/collection/QueueMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/collection/SetMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/collection/SetMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/genericity/AiFruitPlate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/genericity/AiFruitPlate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/genericity/Fruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/genericity/Fruit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/genericity/GenericityMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/genericity/GenericityMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/LinkedMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/linked/LinkedMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/offer/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/reflex/ReflexMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/reflex/ReflexMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/MergerSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/MergerSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/SortMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/sort/SortMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/lock/LockMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/thread/lock/LockMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/array/ArrayMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/array/ArrayMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/mathematics/MathematicsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArithmeticSample/cn/modesty/suanfa/mathematics/MathematicsMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/collection/MapMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/collection/MapMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/collection/QueueMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/collection/QueueMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/collection/SetMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/collection/SetMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/genericity/AiFruitPlate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/genericity/AiFruitPlate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/genericity/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/genericity/Fruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/genericity/GenericityMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/genericity/GenericityMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/linked/LinkedMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/linked/LinkedMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/offer/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/offer/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/reflex/ReflexMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/reflex/ReflexMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/MergerSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/MergerSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/SortMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/sort/SortMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/thread/lock/LockMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/thread/lock/LockMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/mathematics/MathematicsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/mathematics/MathematicsMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/modesty/suanfa/tree/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/modesty/suanfa/tree/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,13 +106,13 @@
       <recent name="C:\Users\1\IdeaProjects\ArithmeticSample\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MathematicsMain">
-    <configuration name="ArrayMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.array.ArrayMain" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="LinkedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.linked.LinkedMain" />
       <module name="ArithmeticSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.array.*" />
+          <option name="PATTERN" value="cn.modesty.suanfa.linked.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.dynamicprogramming.DynamicMain" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.interviewquestion.Main" />
       <module name="ArithmeticSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.dynamicprogramming.*" />
+          <option name="PATTERN" value="cn.modesty.suanfa.interviewquestion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathematicsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.mathematics.MathematicsMain" />
+    <configuration name="QueueMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.collection.QueueMain" />
       <module name="ArithmeticSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.mathematics.*" />
+          <option name="PATTERN" value="cn.modesty.suanfa.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +146,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.sort.SortMain" />
+    <configuration name="SetMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.collection.SetMain" />
       <module name="ArithmeticSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.modesty.suanfa.sort.*" />
+          <option name="PATTERN" value="cn.modesty.suanfa.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.tree.main" />
+      <module name="ArithmeticSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.modesty.suanfa.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,34 +186,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cn.modesty.suanfa.byte.DaKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="ArithmeticSample" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="cn.modesty.suanfa.byte.DaKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.main1" />
-      <item itemvalue="Application.SortMain" />
-      <item itemvalue="Application.ArrayMain" />
-      <item itemvalue="Application.DynamicMain" />
-      <item itemvalue="Kotlin.cn.modesty.suanfa.byte.DaKt" />
-      <item itemvalue="Application.MathematicsMain" />
+      <item itemvalue="Application.SetMain" />
+      <item itemvalue="Application.LinkedMain" />
+      <item itemvalue="Application.QueueMain" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MathematicsMain" />
-        <item itemvalue="Application.DynamicMain" />
-        <item itemvalue="Kotlin.cn.modesty.suanfa.byte.DaKt" />
-        <item itemvalue="Application.ArrayMain" />
-        <item itemvalue="Application.SortMain" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.QueueMain" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.LinkedMain" />
+        <item itemvalue="Application.SetMain" />
       </list>
     </recent_temporary>
   </component>
@@ -339,58 +336,75 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="117" key="#Project_Structure/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1600063051970" />
-    <state width="437" height="527" key="DebuggerActiveHint" timestamp="1600671888648">
+    <state x="533" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1606119509030">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="437" height="527" key="DebuggerActiveHint/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1600671888648" />
-    <state width="1398" height="242" key="GridCell.Tab.0.bottom" timestamp="1605661683429">
+    <state x="533" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1606119509030" />
+    <state x="458" y="205" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1606213083599">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1605661683429" />
+    <state x="458" y="205" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1606213083599" />
+    <state width="437" height="527" key="DebuggerActiveHint" timestamp="1606726193404">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="437" height="527" key="DebuggerActiveHint/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1606726193404" />
+    <state width="437" height="527" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1606550146993" />
+    <state width="1398" height="242" key="GridCell.Tab.0.bottom" timestamp="1606733546112">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1606733546112" />
     <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1598862185608" />
-    <state width="1398" height="270" key="GridCell.Tab.0.bottom/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1601192207996" />
+    <state width="1398" height="270" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606550849429" />
+    <state width="1398" height="270" key="GridCell.Tab.0.bottom/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1605863035949" />
     <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.23.1440.801/-2560.-191.2560.1417@0.23.1440.801" timestamp="1605172153745" />
-    <state width="1398" height="242" key="GridCell.Tab.0.center" timestamp="1605661683428">
+    <state width="1398" height="242" key="GridCell.Tab.0.center" timestamp="1606733546109">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.center/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1605661683428" />
+    <state width="1398" height="242" key="GridCell.Tab.0.center/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1606733546109" />
     <state width="1398" height="242" key="GridCell.Tab.0.center/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1598862185607" />
-    <state width="1398" height="270" key="GridCell.Tab.0.center/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1601192207994" />
+    <state width="1398" height="270" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606550849427" />
+    <state width="1398" height="270" key="GridCell.Tab.0.center/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1605863035948" />
     <state width="1398" height="242" key="GridCell.Tab.0.center/0.23.1440.801/-2560.-191.2560.1417@0.23.1440.801" timestamp="1605172153743" />
-    <state width="1398" height="242" key="GridCell.Tab.0.left" timestamp="1605661683427">
+    <state width="1398" height="242" key="GridCell.Tab.0.left" timestamp="1606733546107">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.left/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1605661683427" />
+    <state width="1398" height="242" key="GridCell.Tab.0.left/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1606733546107" />
     <state width="1398" height="242" key="GridCell.Tab.0.left/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1598862185606" />
-    <state width="1398" height="270" key="GridCell.Tab.0.left/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1601192207993" />
+    <state width="1398" height="270" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606550849426" />
+    <state width="1398" height="270" key="GridCell.Tab.0.left/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1605863035947" />
     <state width="1398" height="242" key="GridCell.Tab.0.left/0.23.1440.801/-2560.-191.2560.1417@0.23.1440.801" timestamp="1605172153742" />
-    <state width="1398" height="242" key="GridCell.Tab.0.right" timestamp="1605661683429">
+    <state width="1398" height="242" key="GridCell.Tab.0.right" timestamp="1606733546111">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.right/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1605661683429" />
+    <state width="1398" height="242" key="GridCell.Tab.0.right/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1606733546111" />
     <state width="1398" height="242" key="GridCell.Tab.0.right/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1598862185608" />
-    <state width="1398" height="270" key="GridCell.Tab.0.right/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1601192207995" />
+    <state width="1398" height="270" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606550849429" />
+    <state width="1398" height="270" key="GridCell.Tab.0.right/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1605863035948" />
     <state width="1398" height="242" key="GridCell.Tab.0.right/0.23.1440.801/-2560.-191.2560.1417@0.23.1440.801" timestamp="1605172153744" />
-    <state width="1398" height="270" key="GridCell.Tab.1.bottom" timestamp="1605576161108">
+    <state width="1398" height="270" key="GridCell.Tab.1.bottom" timestamp="1606731151421">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="270" key="GridCell.Tab.1.bottom/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1605576161108" />
-    <state width="1398" height="270" key="GridCell.Tab.1.bottom/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1601192208130" />
-    <state width="1398" height="270" key="GridCell.Tab.1.center" timestamp="1605576161106">
+    <state width="1398" height="270" key="GridCell.Tab.1.bottom/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1606731151421" />
+    <state width="1398" height="270" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606550849432" />
+    <state width="1398" height="270" key="GridCell.Tab.1.bottom/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1605863036047" />
+    <state width="1398" height="270" key="GridCell.Tab.1.center" timestamp="1606731151420">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="270" key="GridCell.Tab.1.center/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1605576161106" />
-    <state width="1398" height="270" key="GridCell.Tab.1.center/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1601192208128" />
-    <state width="1398" height="270" key="GridCell.Tab.1.left" timestamp="1605576161105">
+    <state width="1398" height="270" key="GridCell.Tab.1.center/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1606731151420" />
+    <state width="1398" height="270" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1606550849431" />
+    <state width="1398" height="270" key="GridCell.Tab.1.center/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1605863036045" />
+    <state width="1398" height="270" key="GridCell.Tab.1.left" timestamp="1606731151419">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="270" key="GridCell.Tab.1.left/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1605576161105" />
-    <state width="1398" height="270" key="GridCell.Tab.1.left/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1601192208127" />
-    <state width="1398" height="270" key="GridCell.Tab.1.right" timestamp="1605576161107">
+    <state width="1398" height="270" key="GridCell.Tab.1.left/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1606731151419" />
+    <state width="1398" height="270" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1606550849430" />
+    <state width="1398" height="270" key="GridCell.Tab.1.left/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1605863036042" />
+    <state width="1398" height="270" key="GridCell.Tab.1.right" timestamp="1606731151421">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="270" key="GridCell.Tab.1.right/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1605576161107" />
-    <state width="1398" height="270" key="GridCell.Tab.1.right/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1601192208129" />
+    <state width="1398" height="270" key="GridCell.Tab.1.right/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1606731151421" />
+    <state width="1398" height="270" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1606550849431" />
+    <state width="1398" height="270" key="GridCell.Tab.1.right/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1605863036046" />
     <state x="144" y="79" key="MergeDialog" timestamp="1600062860230">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -399,19 +413,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="431" y="174" key="MultipleFileMergeDialog/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1600062919109" />
-    <state x="436" y="167" key="RollbackChangesDialog" timestamp="1600063181558">
+    <state x="436" y="167" key="RollbackChangesDialog" timestamp="1606783780516">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="436" y="167" key="RollbackChangesDialog/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1600063181558" />
-    <state x="436" y="167" key="RollbackChangesDialog/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1597020836942" />
+    <state x="436" y="167" key="RollbackChangesDialog/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1606783780516" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1600131549470">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1600131549470" />
-    <state x="374" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1605607592591">
+    <state x="374" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1606447823653">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="374" y="275" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1605607592591" />
+    <state x="374" y="275" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1606447823653" />
     <state x="374" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1599188008532" />
     <state x="374" y="275" key="com.intellij.ide.util.TipDialog/0.23.1440.800/-2560.-191.2560.1417@0.23.1440.800" timestamp="1605509038543" />
     <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600062843181">
@@ -419,11 +432,15 @@
     </state>
     <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1600062843181" />
     <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1598859199810" />
-    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup" timestamp="1600832179779">
+    <state x="471" y="330" width="668" height="279" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1606011426233">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1600832179779" />
-    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-2560.-267.2560.1440@0.0.1440.900" timestamp="1597300245508" />
+    <state x="471" y="330" width="668" height="279" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1440.900@0.0.1440.900" timestamp="1606011426233" />
+    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup" timestamp="1606697774229">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-2560.-214.2560.1440@0.0.1440.900" timestamp="1606697774229" />
+    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1606022773194" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

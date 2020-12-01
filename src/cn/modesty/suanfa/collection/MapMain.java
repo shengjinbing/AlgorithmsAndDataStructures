@@ -50,7 +50,11 @@ import java.util.*;
  *  8.哈希值的使用不同，HashTable直接使用对象的hashCode。而HashMap重新计算hash值。
  *
  * 8.ConcurrentHashMap知道吗，ConcurrentHashMap在jdk1.8之后的优化
- * 19.HashMap的hash算法和扩容机制的原因
+ * 9.HashMap的hash算法和扩容机制的原因？？？？？
+ *   1.之前一条链现在分成两条链表
+ *   3.当前容量的大小是否小于64，如果小于这个值还是要进行扩容而不是转化为红黑树
+ * 10.SparseArray和HashMap的区别?
+ *
  *
  */
 public class MapMain {
