@@ -2,10 +2,7 @@ package cn.modesty.suanfa.producerPattern;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.LinkedBlockingDeque;
+import java.util.concurrent.*;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -32,7 +29,7 @@ public class Main {
         service.execute(c3);
 */
         /***********************阻塞队列实现************************************/
-        BlockingQueue<PCData> queue = new LinkedBlockingDeque<>(10);
+        BlockingQueue<PCData> queue = new LinkedBlockingQueue<>(10);
         Producer p1 = new Producer(queue);
         //Producer p2 = new Producer(queue);
         //Producer p3 = new Producer(queue);

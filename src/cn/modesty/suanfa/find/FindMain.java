@@ -11,6 +11,10 @@ public class FindMain {
         System.out.println(BinarySearch.searchEnd(7, data, 0, data.length - 1));
         System.out.println(BinarySearch.searchFirstBig(2, data, 0, data.length - 1));
         System.out.println(BinarySearch.searchFirstLess(7, data, 0, data.length - 1));*/
+       BinarySearch search = new BinarySearch();
+        System.out.println(search.searchRange(new int[]{5, 7, 7, 8, 8, 10}, 8)[0]);
+        System.out.println(search.searchRange(new int[]{5, 7, 7, 8, 8, 10}, 8)[1]);
+        search.findPeakElement(new int[]{1,2,3,1});
 
     }
 

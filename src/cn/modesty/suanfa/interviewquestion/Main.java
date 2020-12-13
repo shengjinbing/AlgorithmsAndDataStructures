@@ -1,11 +1,9 @@
 package cn.modesty.suanfa.interviewquestion;
 
 import cn.modesty.suanfa.tree.TreeNode;
+import com.sun.jmx.remote.internal.ArrayQueue;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * 收集面试题中出现的算法
@@ -25,43 +23,187 @@ public class Main {
 
         char[][] board =
                 {
-                       {'A', 'B', 'C', 'E'},
-                       {'S', 'F', 'C', 'S'},
-                       {'A', 'D', 'E', 'E'}
-               };
+                        {'A', 'B', 'C', 'E'},
+                        {'S', 'F', 'C', 'S'},
+                        {'A', 'D', 'E', 'E'}
+                };
 
-       String word = "ABCCED";
-       System.out.println(main.exist(board, word));
-
-
+        String word = "ABCCED";
+        System.out.println(main.kthSmallest(new int[][]{
+                {1, 5, 9},
+                {10, 11, 13},
+                {12, 13, 15}
+        }, 8));
+        Stack<Integer> stack = new Stack();
+        System.out.println(main.calculate(" 3+5 / 2 "));
+        System.out.println((int)'0');
     }
-    boolean isExist = false;
-    public boolean exist(char[][] board, String word) {
 
-        for(int i = 0;i < board.length;i++){
-            for(int j = 0; j < board[0][j];j++){
-                dfs(board,word,new StringBuffer(),i,j);
+    public int calculate(String s) {
+        Stack<Integer> stack = new Stack();
+        for(int i = 0;i < s.length();i++){
+            char c = s.charAt(i);
+            if (c == ' ')continue;
+            int pre = 0;
+            if (!stack.isEmpty()) {
+                pre = stack.peek();
+            }
+            if (pre == '*' - '0'){
+                stack.pop();
+                int temp = stack.pop() * (c - '0');
+                stack.push(temp);
+            }else if (pre== '/' - '0'){
+                stack.pop();
+                int temp = stack.pop() / (c - '0');
+                stack.push(temp);
+            }else {
+                stack.push(c - '0');
             }
         }
-        return isExist;
+        while(stack.size() != 1){
+            int e = stack.pop();
+            int m = stack.pop();
+            int k = stack.pop();
+            if(m == '+' - '0'){
+                stack.push(e+k);
+            }else if(m == '-' - '0'){
+                stack.push(k-e);
+            }
+        }
+        return stack.pop();
     }
-    public void dfs(char[][] board, String word,StringBuffer sb,int i,int j){
-        if(i < 0 || j < 0 || i >= board.length || j >= board[0].length){
-            return;
+    /**
+     * 有序矩阵中第K小的元素
+     * 给定一个 n x n 矩阵，其中每行和每列元素均按升序排序，找到矩阵中第 k 小的元素。
+     * 请注意，它是排序后的第 k 小元素，而不是第 k 个不同的元素。
+     * 示例：
+     * matrix = [
+     *    [ 1,  5,  9],
+     *    [10, 11, 13],
+     *    [12, 13, 15]
+     * ],
+     * k = 8,
+     *
+     * 返回 13。
+     */
+    public int kthSmallest(int[][] matrix, int k) {
+        int n = matrix.length;
+        int s = matrix[0][0];
+        int e = matrix[n-1][n-1];
+        while (s < e){
+            int mid = s+(e -s)/2;
+            if (check(matrix,mid,k,n)){
+                e = mid;
+            }else {
+                s = mid+1;
+            }
         }
-        if(sb.length() == word.length() && word.equals(sb.toString())){
-            isExist = true;
-            return;
+        return s;
+    }
+
+    public boolean check(int[][] matrix,int mid ,int k,int n){
+        int i = n - 1;//从底部开始遍历
+        int j = 0;
+        int num = 0;
+        while (i >= 0 && j < n) {
+            if (matrix[i][j] <= mid) {
+                num += i + 1;//重点：每次加上当前列的总数
+                j++;
+            } else {
+                i--;
+            }
         }
-        sb.append(board[i][j]);
-        dfs(board,word,sb,i-1,j);
-        sb.deleteCharAt(sb.length() -1);
-        dfs(board,word,sb,i+1,j);
-        sb.deleteCharAt(sb.length() -1);
-        dfs(board,word,sb,i,j-1);
-        sb.deleteCharAt(sb.length() -1);
-        dfs(board,word,sb,i,j+1);
-        sb.deleteCharAt(sb.length() -1);
+        return num >= k;
+
+    }
+
+    /**
+     * 快乐数
+     * 编写一个算法来判断一个数 n 是不是快乐数。
+     *
+     * 「快乐数」定义为：对于一个正整数，每一次将该数替换为它每个位置上的数字的平方和，然后重复这个过程直到这个数变为 1，也可能是 无限循环 但始终变不到 1。如果 可以变为  1，那么这个数就是快乐数。
+     *
+     * 如果 n 是快乐数就返回 True ；不是，则返回 False
+     * @param n
+     * @return
+     */
+    public boolean isHappy(int n) {
+        HashSet<Integer> set = new HashSet();
+        int sum = 0;
+        while(sum != 1){
+            while(n !=  0){
+                int m  = n % 10;
+                n = n / 10;
+                sum+=m*m;
+            }
+            n = sum;
+            if (set.contains(sum)) {
+                return false;
+            }
+            set.add(sum);
+            if(sum == 1)return true;
+            sum = 0;
+        }
+        return false;
+    }
+
+    public int[] topKFrequent(int[] nums, int k) {
+        Map<Integer, Integer> occurrences = new HashMap<Integer, Integer>();
+        for (int num : nums) {
+            occurrences.put(num, occurrences.getOrDefault(num, 0) + 1);
+        }
+
+        // int[] 的第一个元素代表数组的值，第二个元素代表了该值出现的次数
+        PriorityQueue<int[]> queue = new PriorityQueue<int[]>(k,new Comparator<int[]>() {
+            public int compare(int[] m, int[] n) {
+                return m[1] - n[1];
+            }
+        });
+        for (Map.Entry<Integer, Integer> entry : occurrences.entrySet()) {
+            int num = entry.getKey(), count = entry.getValue();
+            queue.offer(new int[]{num, count});
+        }
+        int[] ret = new int[k];
+        for (int i = 0; i < k; ++i) {
+            ret[i] = queue.poll()[0];
+        }
+        return ret;
+    }
+
+    /**
+     * @param board
+     * @param word
+     * @return
+     */
+    public boolean exist(char[][] board, String word) {
+        if (board == null || board.length == 0)return false;
+        if (word == null || word.length() == 0) return true;
+        for (int i = 0; i < board.length; i++) {
+            for (int j = 0; j < board[0].length; j++) {
+                if ( dfs(board, word, i, j, 0)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    public boolean dfs(char[][] board, String word, int i, int j, int index) {
+        if (i < 0 || j < 0 || i >= board.length || j >= board[0].length ||
+                board[i][j] != word.charAt(index)) {
+            return false;
+        }
+        if (index == word.length() - 1) {
+            return true;
+        }
+        char temp = board[i][j];
+        board[i][j] = '.'; //访问过了
+        boolean result = dfs(board, word, i - 1, j, index + 1) ||
+                dfs(board, word, i + 1, j, index + 1) ||
+                dfs(board, word, i, j - 1, index + 1) ||
+                dfs(board, word, i, j + 1, index + 1);
+        board[i][j] = temp;//恢复数据
+        return result;
     }
 
 
@@ -70,6 +212,7 @@ public class Main {
 
     /**
      * 子集
+     *
      * @param nums
      * @return
      */

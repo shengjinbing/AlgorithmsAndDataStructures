@@ -3,7 +3,9 @@ package cn.modesty.suanfa.collection;
 import cn.modesty.suanfa.linked.LRUCache;
 import cn.modesty.suanfa.linked.LruCache1;
 
+import java.lang.reflect.Array;
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * HashMap的源码分析
@@ -50,20 +52,47 @@ import java.util.*;
  *  7.Hashtable扩容时，将容量变为原来的2倍加1，而HashMap扩容时，将容量变为原来的2倍。
  *  8.哈希值的使用不同，HashTable直接使用对象的hashCode。而HashMap重新计算hash值。
  *
- * 8.ConcurrentHashMap知道吗，ConcurrentHashMap在jdk1.8之后的优化
+ * 8.ConcurrentHashMap知道吗，ConcurrentHashMap在jdk1.8之后的优化?
+ * https://www.jianshu.com/p/865c813f2726
+ * 1.如果没有初始化就先调用initTable（）方法来进行初始化过程
+ * 2.如果没有hash冲突就直接CAS插入
+ * 3.如果还在进行扩容操作就先进行扩容
+ * 4.如果存在hash冲突，就加锁来保证线程安全，这里有两种情况，一种是链表形式就直接遍历到尾端插入，一种是红黑树就按照红黑树结构插入，
+ * 5.最后一个如果Hash冲突时会形成Node链表，在链表长度超过8，Node数组超过64时会将链表结构转换为红黑树的结构，break再一次进入循环
+ * 6.如果添加成功就调用addCount（）方法统计size，并且检查是否需要扩容
+ * 7.多线程扩容
+ * 8.put的流程现在已经分析完了，你可以从中发现，他在并发处理中使用的是乐观锁，当有冲突的时候才进行并发处理
+ *
+ * 9、JDK1.8的实现降低锁的粒度，JDK1.7版本锁的粒度是基于Segment的，包含多个HashEntry，而JDK1.8锁的粒度就是HashEntry（首节点）
+ * 10、JDK1.8版本的数据结构变得更加简单，使得操作也更加清晰流畅，因为已经使用synchronized来进行同步，所以不需要分段锁的概念，也就不需要Segment这种数据结构了，由于粒度的降低，实现的复杂度也增加了
+ * 11、JDK1.8使用红黑树来优化链表，基于长度很长的链表的遍历是一个很漫长的过程，而红黑树的遍历效率是很快的，代替一定阈值的链表，这样形成一个最佳拍档
+ * 12、JDK1.8为什么使用内置锁synchronized来代替重入锁ReentrantLock，我觉得有以下几点
+ * 13、因为粒度降低了，在相对而言的低粒度加锁方式，synchronized并不比ReentrantLock差，在粗粒度加锁中ReentrantLock可能通过Condition来控制各个低粒度的边界，更加的灵活，而在低粒度中，Condition的优势就没有了
+ * 14、JVM的开发团队从来都没有放弃synchronized，而且基于JVM的synchronized优化空间更大，使用内嵌的关键字比使用API更加自然
+ * 15、在大量的数据操作下，对于JVM的内存压力，基于API的ReentrantLock会开销更多的内存，虽然不是瓶颈，但是也是一个选择依据
+ *
  * 9.HashMap的hash算法和扩容机制的原因？？？？？
  *   1.之前一条链现在分成两条链表
  *   3.当前容量的大小是否小于64，如果小于这个值还是要进行扩容而不是转化为红黑树
  * 10.SparseArray和HashMap的区别?
- *
+ *11.hashmap 实现原理，给一个 key 如何计算槽位，如何取值?
  *
  */
 public class MapMain {
     public static void main(String[] args) {
-        Map<String,String> hashMap = new HashMap();
+        //0001 0100
+        System.out.println(20>>>2);
+        System.out.println(-20>>2);
+
+
+        ConcurrentHashMap<String,String> concurrentHashMap = new ConcurrentHashMap();
+        concurrentHashMap.put("1","2");
+
+        HashMap<String,String> hashMap = new HashMap();
         hashMap.put("1","2");
         //重复会覆盖
         hashMap.put("1","2");
+        System.out.println(hashMap.get("3"));
         //key和value都可以为空
         hashMap.put(null,null);
         Set<Map.Entry<String, String>> entries = hashMap.entrySet();
@@ -78,7 +107,6 @@ public class MapMain {
         for (Object o : hashSet) {
             System.out.println(o);
         }
-
         Map<String,String> hashtable = new Hashtable<>();
         System.out.println("11".hashCode());
         System.out.println("10".hashCode());
@@ -124,3 +152,4 @@ public class MapMain {
  * 缺点：基于拷贝内容的优点是避免了Concurrent Modification Exception，但同样地，迭代器并不能访问到修改后的内容，即：迭代器遍历的是开始遍历那一刻拿到的集合拷贝，在遍历期间原集合发生的修改迭代器是不知道的。
  * 场景：java.util.concurrent包下的容器都是安全失败，可以在多线程下并发使用，并发修改。
  */
+
