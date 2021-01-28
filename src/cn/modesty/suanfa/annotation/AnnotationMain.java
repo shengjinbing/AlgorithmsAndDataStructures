@@ -5,8 +5,23 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 public class AnnotationMain {
+    // 状态值
+    public static final int STATUS_OPEN = 1;
+    public static final int STATUS_CLOSE = 2;
+
     public static void main(String[] args) {
-//获取该类的class对象
+        AnnotationMain main = new AnnotationMain();
+        main.setStatus(3);
+    }
+    /**
+     * 定义方法并使用@Status限定参数的取值
+     * @param status
+     */
+    public void setStatus(@SourceAnnotation int status) {
+    }
+
+    private void annotation(){
+        //获取该类的class对象
         try {
             Class<?> clazz = Class.forName("cn.modesty.suanfa.annotation.Test");
             //获取该类的所有方法
@@ -34,3 +49,5 @@ public class AnnotationMain {
         }
     }
 }
+
+

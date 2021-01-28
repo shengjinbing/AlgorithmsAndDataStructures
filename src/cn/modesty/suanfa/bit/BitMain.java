@@ -28,6 +28,47 @@ public class BitMain {
 
     }
 
+    /**
+     *
+     * 进制的转换
+     * 给定一个十进制数M，以及需要转换的进制数N。将十进制数M转化为N进制数
+     *M是32位整数，2<=N<=16.
+     */
+    public String solve (int M, int N) {
+        // write code here
+        if(M == 0) return "0";
+        boolean flag = true;
+        if(M < 0){
+            M = - M;
+            flag = false;
+        }
+        StringBuffer res = new StringBuffer();
+        String hex = "0123456789ABCDEF";
+        while(M != 0){
+            res.append(hex.charAt(M % N));
+            M = M / N;
+        }
+        return flag == true ? res.reverse().toString() : "-"+res.reverse().toString();
+    }
+
+    /**
+     * 幂集
+     * 幂集。编写一种方法，返回某集合的所有子集。集合中不包含重复的元素。
+     * 说明：解集不能包含重复的子集。
+     * 示例:
+     *  输入： nums = [1,2,3]
+     *  输出：
+     * [
+     *   [3],
+     *   [1],
+     *   [2],
+     *   [1,2,3],
+     *   [1,3],
+     *   [2,3],
+     *   [1,2],
+     *   []
+     * ]
+     */
     public static List<List<Integer>> subsets(int[] nums) {
         //子集的长度是2的nums.length次方，这里通过移位计算
         int length = 1 << nums.length;

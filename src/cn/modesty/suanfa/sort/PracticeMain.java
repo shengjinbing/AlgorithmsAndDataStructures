@@ -2,7 +2,7 @@ package cn.modesty.suanfa.sort;
 
 public class PracticeMain {
     public static void main(String[] args) {
-        int[] data = new int[]{1,0,4,3,2,9,6,8,7,5};
+        int[] data = new int[]{1332802,1177178,1514891,871248,753214,123866,1615405,328656,1540395,968891,1884022,252932,1034406,1455178,821713,486232,860175,1896237,852300,566715,1285209,1845742,883142,259266,520911,1844960,218188,1528217,332380,261485,1111670,16920,1249664,1199799,1959818,1546744,1904944,51047,1176397,190970,48715,349690,673887,1648782,1010556,1165786,937247,986578,798663};
         int start = 0;
         int end = data.length-1;
         //quickSort(data,start,end);
@@ -16,6 +16,7 @@ public class PracticeMain {
         }
     }
 
+    //归并
     private static void merge(int[] data, int start, int end){
         if (start >= end){
             return;
@@ -56,6 +57,7 @@ public class PracticeMain {
         }
     }
 
+    //快排
     public static void quickSort(int[] data, int start, int end){
         if (start >= end ) return;
         int mid = findMid(data,start,end);
@@ -63,31 +65,24 @@ public class PracticeMain {
         quickSort(data,mid+1,end);
     }
 
-    private static int findMid(int[] data,int start,int end){
-        int p = data[start];//区分点
-        int i = start;
-        int j = end+1;
-        while (true){
-            while (data[++i]< p){
-                if (i>=end)break;
+    //正确的查找中间值
+    public static int findMid(int[] a,int i,int j){
+        int l = i;
+        int r = j+1;
+        int v = a[i];
+        while(l < r){
+            while(a[++l] <= v && l < j){ }
+            while(a[--r] >= v && r > i){ }
+            if(l < r){
+                int temp = a[l];
+                a[l] = a[r];
+                a[r] = temp;
             }
-            while (data[--j] > p){
-                if (j<=start)break;
-            }
-            if (i < j){
-                int temp = data[i];
-                data[i] = data[j];
-                data[j] = temp;
-            }else {
-                break;
-            }
-
         }
-        int temp = data[j];
-        data[j] = data[start];
-        data[start] = temp;
-
-        return j;
+        int temp = a[i];
+        a[i] = a[r];
+        a[r] = temp;
+        return r;
     }
 
 }

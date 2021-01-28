@@ -73,9 +73,13 @@ import java.util.concurrent.ConcurrentHashMap;
  *
  * 9.HashMap的hash算法和扩容机制的原因？？？？？
  *   1.之前一条链现在分成两条链表
- *   3.当前容量的大小是否小于64，如果小于这个值还是要进行扩容而不是转化为红黑树
- * 10.SparseArray和HashMap的区别?
+ *   2.当前容量的大小是否小于64，如果小于这个值还是要进行扩容而不是转化为红黑树
+ *10.SparseArray和HashMap的区别?
  *11.hashmap 实现原理，给一个 key 如何计算槽位，如何取值?
+ *
+ *
+ * SynchronizedMap
+ * 对自己每个方法加锁
  *
  */
 public class MapMain {
@@ -84,6 +88,8 @@ public class MapMain {
         System.out.println(20>>>2);
         System.out.println(-20>>2);
 
+        Map<Integer,String> synchronizedMap = Collections.synchronizedMap(new HashMap<Integer,String>());
+        synchronizedMap.put(1,"2");
 
         ConcurrentHashMap<String,String> concurrentHashMap = new ConcurrentHashMap();
         concurrentHashMap.put("1","2");

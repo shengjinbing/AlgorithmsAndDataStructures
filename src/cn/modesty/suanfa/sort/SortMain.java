@@ -15,7 +15,7 @@ public class SortMain {
     private static int[] temp;
 
     public static void main(String[] args) {
-        int[] data = {0,9,6,8,10,2,11,1,5,7,4,2};
+        int[] data = {0,9,6};
         //int[] data = {1,2,3,4,5,6,7};
 
         //冒泡

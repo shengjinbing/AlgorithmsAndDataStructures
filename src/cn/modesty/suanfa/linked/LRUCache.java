@@ -23,6 +23,8 @@ public class LRUCache {
         this.size = 0;
         this.capacity = capacity;
         // 使用伪头部和伪尾部节点
+
+
         head = new DLinkedNode();
         tail = new DLinkedNode();
         head.next = tail;

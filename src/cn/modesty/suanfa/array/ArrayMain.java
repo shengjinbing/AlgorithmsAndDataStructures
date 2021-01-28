@@ -22,6 +22,8 @@ public class ArrayMain {
 
         //merge(new int[]{2,0},1,new int[]{1},1);
         System.out.println(firstBadVersion(4));
+        int[] ints = new int[3];
+        ints[0] = 1;
     }
 
     /**
