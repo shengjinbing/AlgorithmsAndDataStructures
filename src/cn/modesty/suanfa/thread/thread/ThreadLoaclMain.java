@@ -35,8 +35,12 @@ package cn.modesty.suanfa.thread.thread;
  * }
  *
  * 1）根据哈希码和数组长度求元素放置的位置，即数组下标
- * 2）从第一步得出的下标开始往后遍历，如果key相等，覆盖value，如果key为null,用新key、value覆盖，同时清理历史key=null的陈旧数据
+ * 2）从第一步得出的下标开始往后遍历，如果key相等，覆盖value，如果key为null,用新key、value覆盖，
+ *    同时清理历史key=null的陈旧数据
  * 3）如果超过阀值，就需要再哈希：
+ *  private static int nextIndex(int i, int len) {
+ *             return ((i + 1 < len) ? i + 1 : 0);
+ * }
  * 清理一遍陈旧数据
  * >= 3/4阀值,就执行扩容，把table扩容2倍==》注意这里3/4阀值就执行扩容，避免迟滞
  * 把老数据重新哈希散列进新table
@@ -73,7 +77,7 @@ public class ThreadLoaclMain {
     public  void set(){
         string = "hello string ";
         //set方法中将该值保存在线程的threadLocals中
-        threadLocal .set("hello threadLocal ");
+        threadLocal.set("hello threadLocal ");
         //set方法中将该值保存在线程的inheritableThreadLocals 中
         inheritableThreadLocal.set("hello inheritableThreadLocal ");
     }

@@ -13,6 +13,7 @@ public class ListMain {
         res.append("4");
         System.out.println(5/6);
         System.out.println(1 + '0');
+        System.out.println(maxArea(new int[]{3, 1, 2}));
     }
     /*public int[][] threeOrders (TreeNode root) {
         // write code here
@@ -61,6 +62,15 @@ public class ListMain {
             res.append(s);
         return res.toString();
 
+    }
+    public static int maxArea(int[] height){
+        int maxarea = 0;
+        for (int i = 0; i < height.length; i++) {
+            for (int j = i+1; j < height.length; j++) {
+                maxarea = Math.max(maxarea,Math.min(height[i],height[j] * (j-i)));
+            }
+        }
+        return maxarea;
     }
 
 }
