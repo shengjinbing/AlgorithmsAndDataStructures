@@ -15,15 +15,15 @@ public class SortMain {
     private static int[] temp;
 
     public static void main(String[] args) {
-        int[] data = {0,9,6};
+        int[] data = {0,9,6,7,2,3,8};
         //int[] data = {1,2,3,4,5,6,7};
 
         //冒泡
         //BubbleSort.sort(data);
-        //SelectSort.select(data);
+        SelectSort.select(data);
         //InsertSort.shell(data);
         temp = new int[data.length];
-        merger(data,0,data.length-1);
+        //merger(data,0,data.length-1);
         //QuickSort.quickSortThree(data,0,data.length-1);
         //QuickSort.quickSort(data,0,data.length-1);
        // HeapSort.sort(data,data.length-1);

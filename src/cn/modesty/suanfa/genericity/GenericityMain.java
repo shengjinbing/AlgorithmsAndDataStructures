@@ -1,5 +1,7 @@
 package cn.modesty.suanfa.genericity;
 
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,7 +9,7 @@ import java.util.List;
  * https://juejin.im/post/6854573219412885518#heading-22
  * 为什么使用泛型 Java 5？
  * 1、消除类型转换
- * 2、再编译时进行更强的类型检测
+ * 2、在编译时进行更强的类型检测
  * 3、增加代码的复用性
  * ①泛型擦除的原因和效果，擦除的时机。
  *  1.因为“真泛型”的引入，势必会为原本不支持泛型的 API 平行添加一套泛型 API。而新增了API，对于 Java 开发者来说
@@ -65,23 +67,45 @@ import java.util.List;
  */
 public class GenericityMain {
     public static void main(String[] args) {
+        //ArrayList<String>里面添加Int类型的值
+        ArrayList<String> list=new ArrayList<String>();
+        Method method = null;
+        try {
+            method = list.getClass().getMethod("add", Object.class);
+            method.invoke(list, 1);
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        }
+        System.out.println(list);
+
         //向上转型
         Apple appletest = new Apple();
         Fruit fruittest = appletest;
 
 
         List<Apple> apples = new ArrayList();
-        //List<Fruit> fruits = apple;
+        List<Fruit> fruits = new ArrayList();
 
         List<? extends Fruit> fruits1 = apples;
         List<? super Apple> fruits2 = apples;
-
 
         Apple apple = new Apple();
         Orange orange = new Orange();
         Fruit fruit = new Fruit();
 
-        //上限通配符无法 set 数据，但是，可以 get 数据且只能 get 到其上限 Fruit，所以，上限通配符可以安全的访问
+        List<? extends Fruit> fruits3 = new ArrayList();
+       /* fruits3.add(apple);
+        fruits3.add(fruit);
+        fruits3.add(orange)*/
+        List<? super Apple> fruits4 = new ArrayList();
+        fruits4.add(apple);
+        /*fruits4.add(fruit);
+        fruits4.add(orange)*/
+        //上限通配符不能set 数据，但是，可以 get 数据且只能 get 到其上限 Fruit，所以，上限通配符可以安全的访问
         // 数据。
         AiFruitPlate<? extends Fruit> fruitPlateGen = new AiFruitPlate<Apple>();
 //        fruitPlateGen.set(apple); // error
@@ -106,7 +130,7 @@ public class GenericityMain {
 
         AiFruitPlate<? super Apple> fruitPlateGen1 = new AiFruitPlate<Fruit>();
         fruitPlateGen1.set(apple); // OK
-//        fruitPlateGen1.set(orange); // error
+       fruitPlateGen1.set(orange); // error
 //        fruitPlateGen1.set(fruit); // error
         //  Apple object = fruitPlateGen1.get();// OK
 //        Fruit fruit2 = fruitPlateGen1.get(); // error
@@ -115,6 +139,30 @@ public class GenericityMain {
 
         //AiFruitPlate<? extends Fruit> fruitPlateGen = new AiFruitPlate<Apple>();//不能用add
         //AiFruitPlate<? super Apple> fruitPlateGen1 = new AiFruitPlate<Fruit>();//不能用get
+
+
+        //测试上限通配符
+        Herd<Cat> catHerd = new Herd<Cat>();
+        //seta(catHerd);
+    }
+
+    private static void setv( List<Fruit> fruits){
+
+    }
+
+    private static void seta( Herd<Animal> herd){
+
+    }
+
+    interface Animal{
+
+    }
+
+    static class Cat implements Animal{
+
+    }
+
+    static class Herd<T extends Animal>{
 
     }
 

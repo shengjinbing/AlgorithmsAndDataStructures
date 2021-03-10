@@ -21,7 +21,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * 5.使用哈希值作为树的分支变量，如果两个哈希值不等，但指向同一个桶的话，较大的那个会插入到右子树里。如果哈希值相等，HashMap希望key值最好是实现了
  * Comparable接口的，这样它可以按照顺序来进行插入；
  * 6.hash碰撞，拉链法；再次hash；hash扰乱
- * 7.新加元素添加到链表头部倍，扩容会从新进行hash计算分布。
+ * 7.新加元素添加到链表头部，扩容会从新进行hash计算分布。
  * 8.每次扩容原来容量的2
  *
  * 1.8JDK版本
@@ -92,7 +92,8 @@ import java.util.concurrent.ConcurrentHashMap;
  *  6.如果添加成功就调用addCount（）方法统计size，并且检查是否需要扩容
  *  7.多线程扩容
  *  8.put的流程现在已经分析完了，你可以从中发现，他在并发处理中使用的是乐观锁，当有冲突的时候才进行并发处理
- *
+ *  9.需要关注的是加锁对象synchronized (f)。对变量f代表就一个hash对应的一条链表，而加锁正好加的是这条链表，或者这颗红黑树上，另外索引为空时通
+ *  过CAS的方式来创建一个新的节点。这也就是JDK 1.8引入的新机制CAS+锁。
  */
 public class MapMain {
     public static void main(String[] args) {
@@ -109,8 +110,8 @@ public class MapMain {
         HashMap<String,String> hashMap = new HashMap();
         hashMap.put("1","2");
         //重复会覆盖
-        hashMap.put("1","2");
-        System.out.println(hashMap.get("3"));
+        hashMap.put("1","3");
+        System.out.println(hashMap.get("1"));
         //key和value都可以为空
         hashMap.put(null,null);
         Set<Map.Entry<String, String>> entries = hashMap.entrySet();

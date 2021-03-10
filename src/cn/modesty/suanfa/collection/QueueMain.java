@@ -7,17 +7,16 @@ import java.util.*;
 
 public class QueueMain {
     public static void main(String[] args) {
-        PriorityQueue<Integer> priorityQueue = new PriorityQueue(new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                return o2 - o1;
-            }
-        });
+        List<Integer> data = new ArrayList();
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue();
         priorityQueue.add(4);
         priorityQueue.add(5);
         priorityQueue.add(1);
+        priorityQueue.add(2);
         System.out.println(priorityQueue.poll());
-
+        if (!priorityQueue.isEmpty()){
+            return;
+        }
         Queue<Integer> queue = new LinkedList();
         queue.add(1);
         queue.offer(1);
